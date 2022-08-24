@@ -1,8 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>Duong NX</title>
+    <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+      }
+
+    li {
+      float: left;
+      }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+      }
+
+    li a:hover {
+      background-color: #111111;
+     }
+    </style>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
   <body>
+
     <h1>Posts</h1>
-    
-:
+     <p>Internet Overview</p>
+    <h2>structure</h2>
+     <ul>
+       <li><a href="#Home">Home</a></li>
+       <li><a href="#internet">Internet</a></li>
+       <li><a href="#IP address">IP address</a></li>
+       <li><a href="#DNS">DNS</a></li>
+       <li><a href="#Packets,Routing and Reliability">Packets,Routing and Reliability</a></li>
+       <li><a href="#HTPP and HTML">HTPP and HTML</a></li>
+       <li><a href="#Encryption and Public Keys">Encryption and Public Keys</a></li>
+       <li><a href="#Cibersecurity and Crime">Cibersecurity and Crime</a></li>
+     </ul>
+    <h2>Click</h2>
+      <p>Below</p>
+
+    <h1 id="myHeader">Hello World!</h1>
+     <button onclick="displayResult()">Change text</button>
+
+      <script>
+       function displayResult() {
+      document.getElementById("myHeader").innerHTML = "Have a nice day!";
+      }
+      </script>
+     <h1>JavaScript</h1>
+
+      <button type="button"
+       onclick="document.getElementById('demo').innerHTML = Date()">
+       Click me to display Date and Time.</button>
+
+      <p id="demo"></p>
+    <h2>Image</h2>
+    <img src="https://cdn.tgdd.vn/Files/2021/02/24/1330068/tong-hop-15-phim-hoat-hinh-3d-trung-quoc-hay-nhat-moi-thoi-dai-202102241106370379.jpg" alt="TieuViem" style="width     :300px">
+    <meta charset="UTF-8">
+    <h2>Emojis</h2>
+
+      <p style="font-size:48px">
+      &#128512; &#128516; &#128525; &#128151;
+      </p>
+    <h2>Fill in the information</h2>
+
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="Nguyen xuan"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Duong">
+    </form>
+    <h2>Date</h2>
+    <form>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday">
+      <input type="submit" value="Submit">
+    </form>
+    <h2>Phone</h2>
+    <form>
+      <label for="phone">Enter a phone number:</label><br><br>
+      <input type="tel" id="phone" name="phone" placeholder="0123-456-789" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <h2>Email</h2>
+    <form>
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" name="email">
+      <input type="submit" value="Submit">
+    </form>
+
+    <h2>File upload</h2>
+    <form>
+      <label for="myfile">Select a file:</label>
+      <input type="file" id="myfile" name="myfile"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <h2>Buttons</h2>
+      <p>Choose your favorite Web language:</p>
+    <form>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+    </form>
+    <form>
+      <input type="button" value="OK">
+    </form>
+    <h2>Textarea</h2>
+      <p>The textarea element defines a multi-line input field.</p>
+
+    <form>
+      <textarea name="message" rows="10" cols="30">Hello World.</textarea>
+      <br><br>
+      <input type="submit">
+    </form>
+    <h2>The button Element</h2>
+
+      <button type="button" onclick="alert('Have a nice day!')">Click Me!</button>
+    <h2>The output Element</h2>
+      <p>The output element represents the result of a calculation.</p>
+
+    <form action="/action_page.php"
+      oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+      0
+      <input type="range" id="a" name="a" value="50">
+      100 +
+      <input type="number" id="b" name="b" value="50">
+      =
+      <output name="x" for="a b"></output>
+      <br><br>
+      <input type="submit">
+    </form>
+    <h2>Search</h2>
+    <form>
+      <label for="gsearch">Google:</label>
+      <input type="search" id="gsearch" name="gsearch">
+      <input type="submit" value="search">
+    </form>
+
+     </body>
+</html>
