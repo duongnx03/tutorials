@@ -202,3 +202,16 @@ asia1 = AsiaPerson.new('Lu ci', 20, 'VN')
 animal = Animal.new
 asia1 = AsiaPerson.new('Lu ci', 20, 'VN')
 animal = Animal.new
+
+
+
+
+def abc
+  @name = 'A Nguyen'
+end
+
+def kkkk
+  @fjdklakfdlaks
+end
+
+puts ">>>>>>>>>>>>>>>>>>>: #{kkkk}"
