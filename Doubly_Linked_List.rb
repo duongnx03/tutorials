@@ -27,5 +27,18 @@ class Node
 end
 
 class DuoblyLinkedList
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 end
