@@ -57,8 +57,21 @@ class LinkedList
     @head_node = new_node
   end
   
-  def insert_middle(new_node)
+  def insert_middle(new_value)
+    new_node = Node.new(new_value)
 
+    if head_node == nil
+      head_node = new_node
+    else
+      temp = head_node
+      middle = head_node
+      while temp.next_node != nil && temp.next_node.next_node != nil
+        temp = temp.next_node.next_node
+        middle = middle.next_node
+      end
+      new_node.next_node = middle.next_node
+      middle.next_node = new_node
+    end
   end
 
   def remove(removing_value)

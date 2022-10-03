@@ -133,15 +133,10 @@ class DuoblyLinkedList < Node
   end
 
   def print
-    print_list = ""
     current_node = head_node
-
     while current_node
-      print_list += "#{current_node.value} -> "
       current_node = current_node.get_next_node 
     end
-
-    print_list
   end
 end
 end
