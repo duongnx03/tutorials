@@ -177,59 +177,62 @@ class LinkedList
       linked_list_as_list.append(current_node)
       current_node = current_node.next_node
     end
+
     return linked_list_as_list = linked_list[length(linked_list_as_list) - n]
   end
 
 #Two pointers moving in the parallel
-  def nth_last_pointer(linked_list, n)
-    linked_list = nil 
-    tail_pointer = linked_list.head_node
-    @@count = 1
+  def nth_last_pointer(n)
+    tail_pointer = head_node
+    count = 1
+    last_pointer = nil
 
     while tail_pointer != nil
-      tail_pointer = tail_pointer.next_node()
-      @@count += 1
+      tail_pointer = tail_pointer.next_node
+      count += 1
 
-      if @@count >= n + 1
-        if nth_last_pointer == nil
-          nth_last_pointer = linked_list.head_node
+      if count >= n + 1
+        if last_pointer == nil
+          last_pointer = head_node
         else
-          nth_last_pointer = nth_last_pointer
-          nth_last_pointer = nth_last_pointer.next_node
+          last_pointer = last_pointer.next_node
         end
-
-        return nth_last_pointer
       end
     end
+
+    return last_pointer
   end
 
   # pointers at different speeds
-  def find_middle(linked_list)
-    fast_pointer = linked_list.head_node
-    slow_pointer = linked_list.head_node
+  def find_middle
+    fast_pointer = head_node
+    slow_pointer = head_node
     while fast_pointer != nil
       fast_pointer = fast_pointer.next_node
       if fast_pointer != nil
         fast_pointer = fast_pointer.next_node
         slow_pointer = slow_pointer.next_node
       end
-    return slow_pointer
     end
+
+    return slow_pointer
   end
 
-  def find_middles(linked_list)
-    @count = 1
-    fast_pointer = linked_list.head_node
-    slow_pointer = linked_list.head_node
+  def find_middle_alt
+    count = 0
+    fast_pointer = head_node
+    slow_pointer = head_node
     while fast_pointer != nil
       fast_pointer  = fast_pointer.next_node
-      if @count % 2 != 0
+      
+      if count % 2 != 0
         slow_pointer = slow_pointer.next_node
-      @count += 1
       end
 
-    return slow_pointer
+      count += 1
     end
+
+    return slow_pointer
   end
  end
 
@@ -241,6 +244,7 @@ linked_list.insert('Second')
 linked_list.insert('Five')
 linked_list.insert('Third')
 linked_list.insert('Six')
+linked_list.insert('Seven')
 
 puts linked_list.print
 
@@ -251,14 +255,11 @@ puts linked_list.swap_nodes(nil, nil)
 puts linked_list.print
 puts linked_list.length
 
+puts linked_list.print
+puts "Middle #{linked_list.find_middle.data}"
 
+puts linked_list.print
+puts "Middles: #{linked_list.find_middle_alt.data}"
 
-# abc = LinkedList.new(for a in 1..10
-#     a.insert
-#   end  )
-#   puts abc.print
-#
-#   puts abc.swap_nodes('3', '7')
-#
-#   puts abc.print
-#
+puts linked_list.print
+puts "nth_last_pointer: #{linked_list.nth_last_pointer(4).data}" 
