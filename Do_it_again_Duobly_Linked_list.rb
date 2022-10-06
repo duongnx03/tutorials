@@ -107,30 +107,28 @@ class DoublyLinkedList
        end
     end
     #toString method for the list
-    def print()
+    def print
       current_node = @root_node
       while current_node != nil
-        current_node.print()
+        current_node.print
         current_node = current_node.get_next()
       end
     end
 end
- 
+
 #methods in case nil is returned instead of node
 def nil.set_prev(node)
 end
 def nil.set_next(node)
 end
 
-
-linked_list = DoublyLinkedList.new("one")
-linked_list.insert_tail("two")
-linked_list.insert_head("three")
-puts linked_list.print()
+linked_list = DoublyLinkedList.new(Node.new("one"))
+linked_list.insert_tail(Node.new("two"))
+linked_list.insert_head(Node.new("three"))
+puts linked_list.print
 
 linked_list = DoublyLinkedList.new(Node.new("one"))
 linked_list.insert_tail(Node.new("two"))
 linked_list.insert_head(Node.new("three"))
 linked_list.delete_node("two")
-linked_list.print()
-
+linked_list.print
