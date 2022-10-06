@@ -1,35 +1,30 @@
 class Node
+  attr_accessor :next_node, :prev_node
+
   def initialize(value, next_node=nil, prev_node=nil)
     @value = value
-    @next_node = next_node
-    @prev_node = prev_node
+    @next_node = nil 
+    @prev_node = nil
   end
    
-  def set_next_node
-    @next_node = next_node
-  end
-
-  def get_next_node
-    return @next_node
-  end
-
   def get_value
     return @value
-  end
-
-  def set_prev_node
-    @prev_node = prev_node
-  end
-
-  def get_prev_node
-    return @prev_node
   end
 end
 
 class DuoblyLinkedList < Node
-  def initialize(head_node, tail_node)
-    @head_node = nil
-    @tail_node = nil
+  def initialize(value)
+    node = Node.new(value)
+    @head_node = node 
+    @tail_node = node 
+  end
+
+  def head_node
+    @head_node
+  end 
+  
+  def tail_node
+    @tail_node
   end
 
   def add_head(new_value)
@@ -37,14 +32,14 @@ class DuoblyLinkedList < Node
     current_head = head_node
 
     if current_head != nil
-      current_head.set_prev_node = new_head
-      new_head.set_next_node = current_head
+      current_head.prev_node = new_head
+      new_head.next_node = current_head
     end
 
-    head_node = new_head
+    @head_node = new_head
      
     if tail_node == nil
-      tail_node = new_head
+      @tail_node = new_head
     end
   end
 
@@ -53,31 +48,31 @@ class DuoblyLinkedList < Node
     current_tail = tail_node
 
     if current_tail != nil
-      current_tail.set_next_node = new_tail
-      new_tail.set_prev_node = current_tail
+      current_tail.next_node = new_tail
+      new_tail.prev_node = current_tail
     end
 
-    tail_node = new_tail
+    @tail_node = new_tail
 
     if head_node == nil
-      head_node = new_tail
+      @head_node = new_tail
     end
   end
  
-  def remove_head
+  def remove_head_node
      remove_head_node = head_node
       if remove_head_node == nil
         return nil
       end
 
-      head_node = remove_head_node.get_next_node
+      @head_node = remove_head_node.next_node
 
       if head_node != nil
-        head_node.set_prev_node = nil
+        head_node.prev_node = nil
       end
 
       if remove_head_node == tail_node
-        remove_tail.value
+        remove_tail.get_value
       end
 
       return remove_head_node.get_value
@@ -89,17 +84,18 @@ class DuoblyLinkedList < Node
         return nil
       end
 
-      tail_node = remove_tail_node.get_prev_node
+      @tail_node = remove_tail_node.prev_node
 
       if tail_node != nil
-        tail_node.set_next_node = nil
+        tail_node.next_node = nil
       end
       
       if remove_tail_node == head_node
-        remove_head.value
+        remove_head.get_value
       end 
 
       return remove_tail_node.get_value
+  end
 
   def remove_value(value_to_remove)
     node_to_remove = nil
@@ -110,7 +106,7 @@ class DuoblyLinkedList < Node
         node_to_remove = current_node
         break
       else
-        current_node = current_node.get_next_node
+        current_node = current_node.next_node
       end
     end
 
@@ -119,28 +115,50 @@ class DuoblyLinkedList < Node
     end
 
     if node_to_remove == head_node
-      remove_head.value
+      remove_head
     elsif node_to_remove == tail_node
-      remove_tail.value
+      remove_tail
     else
-      next_node = node_to_remove.get_next_node
-      prev_node = node_to_remove.get_prev_node
-      next_node.set_prev_node = prev_node
-      prev_node.set_next_node = next_node
+      next_node = node_to_remove.next_node
+      prev_node = node_to_remove.prev_node
+      next_node.prev_node = prev_node
+      prev_node.next_node = next_node
     end
 
     return node_to_remove
   end
 
   def print
+    string_list = ""
     current_node = head_node
-    while current_node
-      current_node = current_node.get_next_node 
+    while current_node != nil
+      string_list += "#{current_node.get_value} <-> "
+      current_node = current_node.next_node
     end
+
+    return string_list
   end
 end
-end
 
-duobly_linked_list = DuoblyLinkedList.new('1', '2')
 
+
+duobly_linked_list = DuoblyLinkedList.new('one')
+duobly_linked_list.add_head('two')
+duobly_linked_list.add_head('three')
 puts duobly_linked_list.print
+
+puts duobly_linked_list.head_node.get_value
+puts duobly_linked_list.tail_node.get_value
+
+duobly_linked_list.add_tail('four')
+puts duobly_linked_list.print
+
+duobly_linked_list.remove_head_node
+puts duobly_linked_list.print
+
+duobly_linked_list.remove_tail
+puts duobly_linked_list.print
+
+duobly_linked_list.remove_value('one')
+puts duobly_linked_list.print
+
