@@ -17,19 +17,6 @@ class Node
     end
   end
 
-  # Alternative
-  # def set_next_node(node)
-  #   if node.nil? || node.is_a?(Node) || array_of_nodes?(node)
-  #     @next_node = node 
-  #   else
-  #     raise LinkTypeError, 'Invalid link or links object'
-  #   end
-  # end
-
-# setter
-# node.next_node = node1
-# node.set_next_node(node1)
-
   private
 
   def array_of_nodes?(value)
@@ -170,22 +157,22 @@ class LinkedList
   end   
 end
 
-linked_list = LinkedList.new('First')
-linked_list.insert('Four')
-linked_list.insert('Second')
-linked_list.insert('Five')
-linked_list.insert('Third')
-linked_list.insert('Six')
-
-puts linked_list.print
-
-puts linked_list.swap_nodes('Four', 'Third')
-puts linked_list.swap_nodes('Four', 'Four')
-puts linked_list.swap_nodes(nil, nil)
-
-puts linked_list.print
-puts linked_list.length
-
+# linked_list = LinkedList.new('First')
+# linked_list.insert('Four')
+# linked_list.insert('Second')
+# linked_list.insert('Five')
+# linked_list.insert('Third')
+# linked_list.insert('Six')
+#
+# puts linked_list.print
+#
+# puts linked_list.swap_nodes('Four', 'Third')
+# puts linked_list.swap_nodes('Four', 'Four')
+# puts linked_list.swap_nodes(nil, nil)
+#
+# puts linked_list.print
+# puts linked_list.length
+#
 
 
 # abc = LinkedList.new(for a in 1..10
