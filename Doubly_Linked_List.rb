@@ -12,7 +12,7 @@ class Node
   end
 end
 
-class DuoblyLinkedList < Node
+class DoublyLinkedList
   def initialize(value)
     node = Node.new(value)
     @head_node = node 
@@ -72,10 +72,10 @@ class DuoblyLinkedList < Node
       end
 
       if remove_head_node == tail_node
-        remove_tail.get_value
+        remove_tail
       end
 
-      return remove_head_node.get_value
+      return remove_head_node
   end
 
   def remove_tail
@@ -102,7 +102,7 @@ class DuoblyLinkedList < Node
     current_node = head_node  
 
     while current_node != nil
-      if current_node.get_value == value_to_remove
+      if current_node.get_value == value_to_remove  
         node_to_remove = current_node
         break
       else
@@ -127,10 +127,42 @@ class DuoblyLinkedList < Node
 
     return node_to_remove
   end
+  
+  def remove_value_alt(value_to_remove)
+    node_to_remove = nil
+    current_node = tail_node
+    while current_node != nil
+      if current_node.get_value == value_to_remove
+        node_to_remove = current_node
+        break
+      else
+        current_node = current_node.prev_node
+      end
+    end
+
+    if value_to_remove == nil
+      nil
+    end
+
+    if node_to_remove == head_node
+      remove_head
+    elsif node_to_remove == tail_node
+      remove_tail
+    else
+      next_node = node_to_remove.next_node
+      prev_node = node_to_remove.prev_node
+      next_node.prev_node = prev_node
+      prev_node.next_node = next_node
+    end
+  end
 
   def print
     string_list = ""
+
     current_node = head_node
+
+    return "<Empty>" if current_node.nil?
+
     while current_node != nil
       string_list += "#{current_node.get_value} <-> "
       current_node = current_node.next_node
@@ -140,25 +172,38 @@ class DuoblyLinkedList < Node
   end
 end
 
-
-
-duobly_linked_list = DuoblyLinkedList.new('one')
-duobly_linked_list.add_head('two')
-duobly_linked_list.add_head('three')
-puts duobly_linked_list.print
-
-puts duobly_linked_list.head_node.get_value
-puts duobly_linked_list.tail_node.get_value
-
-duobly_linked_list.add_tail('four')
-puts duobly_linked_list.print
-
-duobly_linked_list.remove_head_node
-puts duobly_linked_list.print
-
-duobly_linked_list.remove_tail
-puts duobly_linked_list.print
-
-duobly_linked_list.remove_value('one')
-puts duobly_linked_list.print
-
+# duobly_linked_list = DoublyLinkedList.new('three')
+# duobly_linked_list.add_head('four')
+# duobly_linked_list.add_head('five')
+# puts duobly_linked_list.print
+#
+# puts duobly_linked_list.head_node.get_value
+# puts duobly_linked_list.tail_node.get_value
+#
+# duobly_linked_list.add_tail('two')
+# puts duobly_linked_list.print
+#
+# duobly_linked_list.add_tail('one')
+# puts duobly_linked_list.print
+#
+# puts duobly_linked_list.head_node.get_value
+# puts duobly_linked_list.tail_node.get_value
+#
+# duobly_linked_list.add_head('six')
+# puts duobly_linked_list.print
+#
+# duobly_linked_list.add_head('one')
+# puts duobly_linked_list.print
+#
+# duobly_linked_list.add_head('seven')
+# puts duobly_linked_list.print
+#
+# duobly_linked_list.add_tail('seven')
+# duobly_linked_list.add_tail('six')
+# duobly_linked_list.add_head('eight')
+#
+# puts duobly_linked_list.head_node.get_value
+# puts duobly_linked_list.tail_node.get_value
+# puts duobly_linked_list.print
+#   
+# duobly_linked_list.remove_value_alt
