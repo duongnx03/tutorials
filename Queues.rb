@@ -41,8 +41,7 @@ end
 class SuperQueue
   class OverflowException < StandardError; end
   class UnderflowException < StandardError; end
-  
-  attr_accessor :size, :head, :tail
+  attr_accessor :size
 
   def initialize(size: 10, initial_value: 0)
     @size = size
@@ -66,7 +65,7 @@ class SuperQueue
   end
 
   def peek
-      @arr.first
+    @arr.first
   end
 end 
 
