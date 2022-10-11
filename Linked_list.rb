@@ -29,7 +29,7 @@ class LinkedList
   @@length = 0
 
   def initialize(value) 
-    @head_node = Node.new(value) 
+    @head_node = nil
     @@length = 1
   end
 
@@ -157,24 +157,27 @@ class LinkedList
   end   
 end
 
-# linked_list = LinkedList.new('First')
-# linked_list.insert('Four')
-# linked_list.insert('Second')
-# linked_list.insert('Five')
-# linked_list.insert('Third')
-# linked_list.insert('Six')
-#
-# puts linked_list.print
-#
-# puts linked_list.swap_nodes('Four', 'Third')
-# puts linked_list.swap_nodes('Four', 'Four')
-# puts linked_list.swap_nodes(nil, nil)
-#
-# puts linked_list.print
-# puts linked_list.length
-#
+linked_list = LinkedList.new('First')
+linked_list.insert('Four')
+linked_list.insert('Second')
+linked_list.insert('Five')
+linked_list.insert('Third')
+linked_list.insert('Six')
+
+puts linked_list.print
+
+puts linked_list.swap_nodes('Four', 'Third')
+puts linked_list.swap_nodes('Four', 'Four')
+puts linked_list.swap_nodes(nil, nil)
+
+puts linked_list.print
+puts linked_list.length
 
 
+puts "---------"
+puts linked_list.remove('Four')
+puts linked_list.print
+puts linked_list.length
 # abc = LinkedList.new(for a in 1..10
 #     a.insert
 #   end  )

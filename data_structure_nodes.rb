@@ -81,4 +81,4 @@ third_node = Node.new('Third')
 linked_list.insert(third_node)
 
 linked_list.remove(second_node)
-puts linked_list.inspect
+puts "#{linked_list.inspect}"
