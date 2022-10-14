@@ -161,8 +161,7 @@ class DoublyLinkedList
 
     current_node = head_node
 
-    return "<Empty>" if current_node.nil?
-
+    return "<Empty>
     while current_node != nil
       string_list += "#{current_node.get_value} <-> "
       current_node = current_node.next_node

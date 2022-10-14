@@ -7,7 +7,7 @@ class DLLStack
 
   def initialize(size: 6, value: 0)
     @size = size 
-    @space = 1  
+    @space = 0  
     @linked_list = ::DoublyLinkedList.new(value)
   end
 
@@ -21,8 +21,8 @@ class DLLStack
   def pop
     raise UnderflowException.new('The stack is empty') if @space == 0
 
+    @linked_list.remove_head_node
     @space -= 1
-    @linked_list.remove_head_node.get_value
   end
   
   def peek
@@ -67,21 +67,21 @@ class Stack
   end
 end
 
-stack = DLLStack.new(size: 5, value: 1)
-# stack = Stack.new(size: 5, value: 1)
+#stack = DLLStack.new(size: 5, value: 1)
+ stack = Stack.new(size: 5, value: 1)
 puts "size stack: #{stack.size}"
 puts "------------ expectation: [1]"
 stack.print
 stack.push(2)
 stack.push(3)
 
-puts "------------ expectation: [1,2,3]"
+puts "------------ expectation: [3, 2, 1]"
 stack.print
 
 puts "Peek: expectation: 3"
 stack.peek
 
-puts "------------ expect: [1,2,3]"
+puts "------------ expect: [3, 2, 1]"
 stack.print
 
 puts "pop time #1: #{stack.pop}"
@@ -90,7 +90,7 @@ puts "pop time #3: #{stack.pop}"
 puts "------------ expectation: []"
 
 # UnderflowException
-#ts "pop time #4: #{stack.pop}"
+#puts "pop time #4: #{stack.pop}"
 
 stack.push(4)
 stack.push(5)
@@ -101,5 +101,5 @@ stack.print
 puts "------------"
 
 # OverflowException
-stack.push(9)
+#stack.push(9)
 stack.peek
