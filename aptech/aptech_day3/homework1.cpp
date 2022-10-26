@@ -1,16 +1,20 @@
 #include <stdio.h>
 
 int main(){
-  int num, count;
+  int num, count = 0;
 
   printf("Input num:\n");
   scanf("%d", &num);
 
-  count = 0;
   while (count <= num)
   {
-    if (count % 2 == 0) {
-      printf("Even number is: %d\n", count);
-    }count += 1; 
+    printf("%d\n", count);
+    count+=2;
   }
+  // while (count <= num)
+  // {
+  //   if (count % 2 == 0) {
+  //     printf("Even number is: %d\n", count);
+  //   }count += 1; 
+  // }
 }

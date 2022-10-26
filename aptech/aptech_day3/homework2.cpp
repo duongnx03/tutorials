@@ -1,17 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int num, count , sum = 0;
+    int num, count = 1 , sum = 0;
 
     printf("Enter a positive integer: ");
     scanf("%d", &num);
-    count = 1;
 
-    while (count <= num ) {
+    while (count <= num ) { 
+      if (count < num) {
+        printf("%d + ", count);
+      }else{
+        printf("%d = ", count);
+      }
         sum += count;
         ++count;
     }
 
-    printf("Sum = %d", sum);
+    printf("%d", sum);
     return 0;
 }
