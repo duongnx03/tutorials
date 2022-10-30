@@ -10,7 +10,6 @@ int main(){
   while (num != 0)
   {
     printf("Input number again: \n");
-    fflush(stdin);
     scanf("%d", &num);
   }
   printf("Sure!\n");
