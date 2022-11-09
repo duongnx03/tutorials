@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+void main(){
   int month;
 
   printf("Input num: \n");
@@ -21,5 +21,18 @@ int main(){
       break;
     default :
       printf("error\n");
+  }
+
+  switch (month) {
+    case 17:
+    case 18:
+    case 19:
+    case 20:
+      printf("Lay");
+      break;
+
+    default:
+      printf("Ko lay");
+      break;
   }
 }
