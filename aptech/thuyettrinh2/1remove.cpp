@@ -1,3 +1,9 @@
+/* Ham remove() xóa filename đã cho để nó không thể truy cập được nữa.
+ syntax: int remove(const char *filename)
+ filename −- là chuỗi chứa tên file để được xóa.
+ 
+ Nếu thành công thì trả về 0. Nếu có lỗi, trả về -1 và errno được thiết lập thích hợp
+*/
 #include <stdio.h>
 #include <string.h>
 

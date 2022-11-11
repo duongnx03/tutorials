@@ -1,5 +1,10 @@
-//int fscanf(FILE *stream, const char *format, ...)
-
+/*Hàm fscanf() trong C được sử dụng để đọc từng dòng file theo định dạng chỉ định và ghi lại nội dung đọc được vào một mảng có sẵn.
+syntax: int fscanf(FILE *stream, const char *format, ...)
+stream -- là con trỏ của file cần đọc.
+format-- là định dạng.
+Hàm fscanf() trả về chuỗi đầu vào nếu thành công.
+Hàm fscanf() trả về giá trị EOF nếu không thành công.
+*/
 #include <stdio.h>
 
 int main()
@@ -9,7 +14,7 @@ int main()
    FILE * fp;
 
    fp = fopen ("baitapc.txt", "w+");
-   fputs("Toi sinh nam 2003", fp);
+   fputs("Nhom mot number 1", fp);
    
    rewind(fp);
    fscanf(fp, "%s %s %s %d", str1, str2, str3, &year);
