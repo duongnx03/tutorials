@@ -25,6 +25,12 @@ class Calculator
       return @number1 + @number2
     elsif @operator == '-'
       return @number1 - @number2
+    elsif @operator == '*'
+      return @number1 * @number2
+    elsif @operator == '/'
+      return @number1 / @number2
+    else 
+      puts "Error"
     end
   end
 end 

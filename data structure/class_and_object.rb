@@ -17,14 +17,14 @@ class Person
   def age 
     @age
   end
-
+ 
   def age=(age)
     @age = age
   end
 end
 
 
-abc = Person.new('sontung', 25)
+abc   Person.new('sontung', 25)
 puts abc.inspect
 
 puts abc.name

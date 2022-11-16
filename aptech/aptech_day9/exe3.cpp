@@ -13,7 +13,7 @@ int main(){
 
   //dung vong lap de nhap 
   for (int i = 0; i < 3; i++) {
-    printf("Input for student%d\n", i);
+    printf("Input for student %d\n", i);
     printf("Input id: \n");
     scanf("%d", &stus[i].id);
     printf("Input name: \n");
