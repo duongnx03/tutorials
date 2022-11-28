@@ -10,10 +10,10 @@ void menu(){
 }
 
 void R1(){
-  int num, size = 3;
+  int num, size = 0;
 
    printf("How many numbers you want to enter: ");
-  scanf("%d", &num);
+  scanf("%d", &size);
   for (int i = 0; i < size; i++) {
    printf("Enter number: ");
    scanf("%d", &num);
