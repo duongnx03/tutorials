@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            border-style: solid;
+            width: fit-content;
+        }
+
+        form {
+            margin: 30px;
+            background-color: aliceblue;
+            padding: 14px;
+        }
+
+        button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+
+        }
+
+        h3 {
+            color: orange;
+        }
+
+        h2 {
+            color: green;
+            text-align: center;
+        }
+
+        input {
+            border: none;
+            background-color: honeydew;
+        }
+
+        textarea {
+            background-color: honeydew;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="exercise1.html">
+        <h2>Sign Up</h2>
+        <h3>Your basic info</h3>
+        <b> Name:</b> <br>
+        <input type="text"><br>
+        <b> Email:</b> <br>
+        <input type="email"><br>
+        <b> Password:</b> <br>
+        <input type="password"><br>
+        <b> Age:</b> <br>
+        <input type="radio" name="age">Under 18 <br>
+        <input type="radio" name="age">18 or older <br>
+        <br>
+        <h3>Your profile</h3> <br>
+        <b> Biography:</b> <br>
+        <textarea cols="15" rows="3"></textarea><br>
+        <b>Job Role:</b> <br>
+        <select>
+            <optgroup label="Web">
+                <option>Font-End Developer</option>
+                <option>PHP Developer</option>
+                <option>Python Developer</option>
+                <option>Rails Developer</option>
+                <option>Web Designer</option>
+                <option>WordPress Developer</option>
+            </optgroup>
+            <optgroup label="Mobile">
+                <option>Androild Developer</option>
+                <option>IOS Developer</option>
+                <option>Mobile Designer</option>
+            </optgroup>
+            <optgroup label="Business">
+                <option>Business Owner</option>
+                <option>Freelancer</option>
+            </optgroup>
+            <optgroup label="Other">
+                <option>Secretary</option>
+                <option>Maintenance</option>
+            </optgroup>
+        </select><br><br>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+
+</html>

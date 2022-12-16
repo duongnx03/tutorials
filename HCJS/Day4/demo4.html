@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:required{
+            outline: 1px red solid;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="demo1.html">
+        <!-- readonly : khong cho nhap -->
+        Name:<input type="text" required value="Nguyen Van A">
+        <br><br>
+        Password:<input type="password" required><br><br>
+        Age: <input type="number" min="18" max="65"> <br><br>
+        Birthday: <input type="date"> <br><br>
+        Gender: <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other <br><br>
+        Email: <input type="email" readonly> <br><br>
+        Hobby: <input type="checkbox"> Game
+         <input type="checkbox"> Music 
+         <input type="checkbox"> Food <br><br>
+         City: <select> 
+            <option> Ha Noi</option>
+            <option>Hue</option>
+            <option>Nghe An</option>
+            <option>HCM</option>
+         </select>
+         <br><br>
+         Comment: <textarea cols="20" rows="10"></textarea>
+        <br> <br>
+        <!-- tao nut gui form, chi co 1 nut submit va reset cho form -->
+        <input type="submit" value="send">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>

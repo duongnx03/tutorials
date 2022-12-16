@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        span {
+            font-size: 50px;
+            font-weight: 900;
+        }
+
+        a {
+            padding: 30px;
+            font-size: 30px;
+            text-decoration: none;
+        }
+
+        div {
+            background-color: rgb(120, 243, 243);
+        }
+
+        p {
+            font-size: 65px;
+            font-weight: 900;
+        }
+
+    </style>
+</head>
+
+<body>
+    <img src="img/download.jpeg" width="50px" height="40px"> <span> SOFTING</span>
+    <br>
+    <a href="#">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">FEATURE</a>
+    <a href="#">OVERVIEW</a>
+    <a href="#">PRICING</a>
+    <a href="#">TEAM</a>
+    <a href="#">CONTACT</a><br>
+
+    <div>
+        <form onsubmit="return false;">
+            <p>CONTACT US</p>
+            <input type="text" placeholder="First name" id="fname"><br><br>
+            <input type="text" placeholder="Lastname" id="lname"><br><br>
+            <input type="email" placeholder="Email" id="email"><br><br>
+            <input type="number" placeholder="Phone" id="phone"><br><br>
+            <textarea cols="15" rows="2" placeholder="tell us something" id="content"></textarea><br><br>
+            <input type="radio" name="abc">Personal
+            <input type="radio" name="abc">Company <br><br>
+            <input type="submit" value="Send message" onclick="checkForm()">
+            <input type="reset" value="Reset"><br><br>
+        </form>
+    </div>
+
+    <script>
+        function checkForm() {
+            var fname = document.getElementById("fname").value;
+            var lname = document.getElementById("lname").value;
+            var phone = document.getElementById("phone").value;
+            if (!fname) {
+                alert("Firstname can not blank");
+            } else if (!lname) {
+                alert("Lastname can not blank");
+            } else if (!email) {
+                alert("Email can not blank");
+            } else if (!phone) {
+                alert("Phone can not blank");
+            } else if (!content) {
+                alert("Content can not blank");
+            }else if (fname.length < 3) {
+                    alert("Firstname must enter at least 3 characters ")
+                } else if (lname.lenth < 3) {
+                    alert("Lastname must enter at least 3 characters ")
+                }
+                else if (phone.length != 10) {
+                    alert("You must enter 10 character")
+                }
+                else {
+                    alert("send messages successfully!")
+                    window.location.href = "demo1.html"
+                }
+            }
+    </script>
+</body>
+
+</html>

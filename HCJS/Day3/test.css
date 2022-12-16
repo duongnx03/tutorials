@@ -1,0 +1,51 @@
+body{
+    background-color: antiquewhite;
+}
+.A{
+    border:5px solid gray;
+    width: 350px;
+    margin-left: 28%;
+
+   
+   
+}
+span{
+    color: brown    ;
+}
+p{
+   text-align: center;  
+   margin: auto;
+   
+}
+.hinh1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    outline: solid black 1px;
+    outline-offset: -15px;
+    
+}.b{
+    position: relative;
+    font-size: 20px;
+    font-style: italic;
+
+}
+.text{
+        position:absolute;
+        top: 10%;
+        left: 400px;
+
+
+}
+p{
+    margin: 20px;
+}
+.f{
+    width: 150px;
+    height: 150px;
+    
+}
+.d{
+    margin-left: 200px;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        form {
+            border: solid;
+            width: fit-content;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .a {
+            background-color: green;
+            font-size: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+            color: white;
+        
+        }
+
+        span {
+            font-size: 50px;
+            font-weight: 900;
+        }
+
+        a {
+            padding: 30px;
+            font-size: 30px;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+
+<body>
+    <img src="img/download.jpeg" width="50px" height="40px"> <span> SOFTING</span>
+    <br><br><br>
+    <a href="#">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">FEATURE</a>
+    <a href="#">OVERVIEW</a>
+    <a href="#">PRICING</a>
+    <a href="#">TEAM</a>
+    <a href="#">CONTACT</a><br><br><br>
+    <form action="">
+        <table>
+            <tr>
+                <td colspan="2" class="a"> Create A New Account </td>
+            </tr>
+            <tr>
+                <td align="right"> First name</td>
+                <td align="left"><input type="text" id="firstname"></td>
+            </tr>
+            <tr>
+                <td align="right">Email</td>
+                <td align="left"><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td align="right">Confirm Email</td>
+                <td align="left"><input type="email" id="cemail"></td>
+            </tr>
+            <tr>
+                <td align="right">Password</td>
+                <td align="left"><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td align="right">Confirm Password</td>
+                <td align="left"><input type="password" id="cpassword"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox">Yes sign me up</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Create Account" onclick="checkForm()"></td>
+            </tr>
+        </table>
+    </form>
+     
+    <script>
+        function checkForm(){
+          var fname = document.getElementById("firstname").value;
+          var email = document.getElementById("email").value;
+          var cemail = document.getElementById("cemail").value;
+          var password = document.getElementById("password").value;
+          var cpassword = document.getElementById("cpassword").value;
+        if(!fname){
+             alert("Firstname can not blank");
+        }else if (!email){
+            alert("Email can not blank");
+        }else if (!cemail){
+            alert("Cemail can not balnk");
+        }else if (!password){
+            alert("Password can not balnk");
+        }else if (!cpassword){
+            alert("Cpassword can not balnk");
+        }else if(email != cemail){
+            alert("Email must be the same as Cpassword");
+        }else if (password != cpassword){
+            alert("Password must be the same as Cpassword");
+        }else if(fname.length < 3){
+            alert("firstname must be greater than or equal to 3 characters ")
+        }else if(password.length < 6){
+            alert("password must be greater than or equal to 6 characters")
+        }
+     }
+        
+    </script>
+</body>
+
+</html>
+
+

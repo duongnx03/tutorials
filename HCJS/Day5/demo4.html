@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+     Name: <input type="text" onfocus="focusName()" id="name" 
+     onblur="blurName()"><br>
+     Email: <input type="email" onfocus="focusEmail()" id="email" 
+     onblur="blurEmail()"><br>
+     Age: <input type="number" onfocus="focusAge()" id="age" 
+     onblur="blurAge()"><br>
+    </form>
+    <script>
+        function focusName(){
+          document.getElementById("name").style.backgroundColor = "yellow";
+        }
+        function blurName(){
+          document.getElementById("name").style.backgroundColor = "white";
+        }
+        function focusEmail(){
+          document.getElementById("email").style.backgroundColor = "yellow";
+        }
+        function blurEmail(){
+          document.getElementById("email").style.backgroundColor = "white";
+        }
+        function focusAge(){
+          document.getElementById("age").style.backgroundColor = "yellow";
+        }
+        function blurAge(){
+          document.getElementById("age").style.backgroundColor = "white";
+        }
+    </script>
+</body>
+</html>
