@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="angular.min.js"></script>
+</head>
+<body>
+    <h2>ng-filter Date demo</h2>
+    <hr>
+    <div ng-app="myApp" ng-controller="myController">
+        <p>Date = {{today | date : "dd.mm.y"}}</p>
+        <p>Date = {{today | date : "short"}}</p>
+        <p>Date = {{today | date : "medium"}}</p>
+        <p>Date = {{today | date : "longDate"}}</p>
+
+    </div>
+    <script>
+        var app = angular.module("myApp", [])
+        app.controller("myController", function($scope){
+            $scope.today = new Date();
+        })
+    </script>
+</body>
+</html>

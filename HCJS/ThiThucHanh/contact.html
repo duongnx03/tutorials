@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .t {
+            padding-left: 620px;
+        }
+
+        .c {
+            color: white;
+            background-color: black;
+            padding-left: 530px;
+            padding-right: 530px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+
+        }
+
+        a {
+
+            margin-left: 20px;
+            text-decoration: none;
+            padding: 50px;
+            font-size: 17px;
+        }
+
+        form {
+            text-align: center;
+            margin-left: 550px;
+        }
+
+        .bb {
+            font-size: 40px;
+        }
+
+        .bold {
+            font-weight: 400;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="img/Images_Set10/logo.png" class="t">
+    <table>
+        <tr class="a">
+            <td><a href="#">HOME</a></td>
+            <td><a href="#">ABOUT</a></td>
+            <td><a href="#">FEATURES</a></td>
+            <td><a href="#">OVERVIEW</a></td>
+            <td><a href="#">PRICING</a></td>
+            <td><a href="#">TEAM</a></td>
+            <td><a href="contact.html">CONRTACT</a></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <form action="">
+        <table>
+            <tr>
+                <td class="bb">CONTACT US</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" placeholder="First Name*" id="fname"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" placeholder="Last Name*" id="lname"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="text" placeholder="Email*" id="email"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="number" placeholder="Phone*" id="phone"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea cols="16" rows="3" placeholder="Tell Us About Project*" id="tell"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="boldx"><input type="radio" name="a">Company <input type="radio" name="a">Personal</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Send Message" onclick="checkSubmit()"> <input type="reset"
+                        value="Reset"></td>
+            </tr>
+        </table>
+
+    </form>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <span class="c">&#169 Copyright 2021. All rights Reserved by SOFFTING</span>
+
+    <script>
+        function checkSubmit() {
+            var fname = document.getElementById("fname").value
+
+            if (!fname) {
+                alert("The first Name can not left empty!")
+            } else if (!lname) {
+                alert("The Last Name can not left empty!")
+            } else if (!email) {
+                alert("The Email can not left empty!")
+            } else if (!phone) {
+                alert("The Phone can not left empty!")
+            } else if (!tell) {
+                alert("The Tell Us About Project  can not left empty!")
+            } else if (!/^[a-z A-Z 0-9_-]{1,5}@[a-zA-Z].[a-zA-Z]{1,4}$/.test(stuID)) {
+                alert("Invalid email")
+            }else{
+                alert("success")
+            }
+        }
+</script>
+</body>
+</html>

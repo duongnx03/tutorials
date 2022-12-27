@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script src="angular.min.js"></script>
+</head>
+<body>
+    <h2>Custom directive demo</h2>
+    <hr>
+    <div ng-app="myApp">
+        <my-Dir></my-Dir>
+        <div my-Dir></div>
+    </div>
+    <script>
+        var app = angular.module("myApp", [])
+        app.directive("myDir", function(){
+            return{
+                restrict: "EA",
+                template: "<h3>Hello</h3><p>New Directive</p>"
+            }
+        })
+    </script>
+    
+</body>
+</html>

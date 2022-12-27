@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            padding-left: 110px;
+            padding-right: 110px;
+            text-decoration: none;
+
+        }
+
+        .t{
+            background-color: rgb(185, 179, 179);
+            border: solid;
+        }
+
+        div {
+            font-size: 50px;
+            font-weight: 500;
+        }
+        .r{
+            
+        }
+        .t{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table class="t">
+        <tr>
+            <td><a href="#">Home</a></td>
+            <td><a href="#">Library</a></td>
+            <td><a href="#">About Us</a></td>
+            <td><a href="demo4.html">Register</a></td>
+            <td><a href="#">Contact Us</a></td>
+        </tr>
+    </table>
+
+    <h2>REGISTER FORM</h2>
+
+    <table>
+        <form action="demo3.html">
+            <tr>
+                <td class>Login name</td>
+                <td class="r"><input type="text" id="lname"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td class="r"><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td>Confirm Password</td>
+                <td class="r"><input type="password" id="cpassword"></td>
+            </tr>
+            <tr>
+                <td>Fullname</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="abc">Male
+                    <input type="radio" name="abc">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Date of birth</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td class="r"><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>Phone number</td>
+                <td><input type="integer"></td>
+            </tr>
+            <tr>
+                <td>Hobies</td>
+                <td><input type="checkbox" name="a">Swimming
+                    <input type="checkbox" name="a">Dancing
+                    <input type="checkbox" name="a">Shopping
+                </td>
+            </tr>
+            <tr>
+                <td>Comment</td>
+                <td><textarea cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" onclick="checkSubmit()"> <input type="reset" value="Reset"></td>
+            </tr>
+        </form>
+    </table>
+    <script>
+        function checkSubmit(){
+        var lname = document.getElementById("lname").value
+        var password = document.getElementById("password").value
+        var cpassword = document.getElementById("cpassword").value
+        var email = document.getElementById("email").value
+        }
+
+        if(!lname){
+            alert("Invali login name")
+        }else if(!password){
+            alert("Invalid password")
+        }else if(!cpassword){
+            alert("Invalid confirm password")
+        }else if(!email){
+            alert("Invalid email")
+        }
+    </script>
+
+</body>
+
+</html>

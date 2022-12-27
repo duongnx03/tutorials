@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="retern: false">
+        <p>Name <input type="text" id="name"></p>
+        <p>Phone:<input type="text" id="phone"></p>
+        <p><input type="submit" onclick="checkPhone()"></p>
+    </form>
+    <script>
+        function checkPhone() {
+            var name = document.getElementById("name").value
+            var phone = document.getElementById("phone").value
+            if (!/^[0-9]{10,12}$/.test(phone)) {
+                alert("Invalid phone")
+            // }else if(!/^[A-Z]{1}[a-zA-Z]{3,6}$/.test(name)) {
+            //     alert("Invalid name")
+        }
+        }
+    </script>
+</body>
+
+</html>

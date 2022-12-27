@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <p>ID <input type="text" id="stuID"></p>
+        <p>Email<input type="text" id="email"></p>
+        <p>Password <input type="password" id="password"></p>
+        <p><input type="submit" onclick="checkSubmit()"></p>
+    </form>
+
+    <script>
+        function checkSubmit(){
+            var stuID = document.getElementById("stuID").value
+            var email = document.getElementById("email").value
+            var password = document.getElementById("password").value
+        }
+     
+        if(!/^ST[0-9]$/.test(stuID)){
+            alert("Invalid stuId")
+        }else if(!/^[a-z A-Z 0-9_-]{1,5}@[a-zA-Z].[a-zA-Z]{1,4}$/.test(stuID)){
+            alert("Invalid email")
+        }else if(!/^[a-zA-Z0-9]{3-6}$/.test(password)){
+            alert("Invalid password")
+        }
+    </script>
+</body>
+</html>
