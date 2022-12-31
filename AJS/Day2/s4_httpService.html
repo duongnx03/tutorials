@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body ng-app="myApp" ng-controller="myController">
+
+    myData: {{myData}} <br><br>
+    list: {{list}} <br>
+    <ul>
+        <li ng-repeat="x in list">{{x}}</li>
+    </ul>
+
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+
+        <tr ng-repeat="x in list">
+            <td>{{x.id}}</td>
+            <td>{{x.name}}</td>
+            <td>{{x.address}}</td>
+        </tr>
+
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+
+    <script>
+        var app = angular.module("myApp", [])
+        app.controller("myController", function ($scope, $http) {
+            $http.get("home.html").then(function (rsp) {
+                $scope.myData = rsp.data;
+            })
+            $http.get("student.json").then(function (rsp) {
+                $scope.list = rsp.data.student;
+            })
+        })
+    </script>
+</body>
+
+</html>

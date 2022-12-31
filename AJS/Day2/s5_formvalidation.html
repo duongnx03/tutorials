@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error{
+            color: #ff0000;
+        }
+        input.ng-dirty.ng-invalid{
+            color: red;
+        }
+        input.ng-dirty.ng-valid{
+            color: rgb(86, 139, 5);
+        }
+    </style>
+</head>
+<body ng-app="myApp">
+
+    <form name="myForm">
+        ID: <input type="text" name="myID" ng-model="myID1" required pattern="\w{2,}"><br>
+        <span class="error" ng-show="myForm.myID.$dirty && myForm.myID.$error.required">Id is required</span>
+        <span class="error" ng-show="myForm.myID.$dirty && myForm.myID.$error.pattern">Id minimum is 2 symbols</span>
+        <br> 
+        <input type="submit">
+    </form>
+
+    myForm.myID.$valid = {{myForm.myID.$valid}} <br>
+    myForm.myID.$error = {{myForm.myID.$error}}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script>
+        var app = angular.module("myApp", [])
+    </script>
+</body>
+</html>

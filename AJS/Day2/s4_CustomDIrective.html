@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S4 - Custom Directive</title>
+</head>
+<body ng-app="myApp">
+
+    <!-- goi custom directive theo dang element -->
+    <my-directive></my-directive>
+
+    <!-- goi custom directive theo dang attribute -->
+    <div my-directive></div>
+
+    <!-- goi custom directive theo dang class -->
+    <div class="my-class-directive"></div>
+
+    <!-- directive:my-comment-directive  -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script>
+        var app = angular.module("myApp", []);
+        app.directive("myDirective", function(){
+        return{
+            restrict: 'AE',
+            template: '<h3>This is Custom Directive</h3>'
+        }
+    })
+
+    app.directive("myClassDirective", function(){
+        return{
+            restrict: 'C',
+            template: '<h3>This is Class Directive</h3>'
+
+        }
+    })
+
+    app.directive("myCommentDirective",function(){
+        return{
+            restrict: 'M',
+            replace: "true",
+            template: '<h3>This is Comment Directive</h3>'
+            
+        }
+    })
+    </script>
+</body>
+</html>

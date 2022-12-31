@@ -1,0 +1,7 @@
+{
+    "student":[
+        {"id": 1, "name": "Dat", "address": "HN"},
+        {"id": 1, "name": "Hungt", "address": "DN"},
+        {"id": 1, "name": "Son", "address": "NT"}
+    ]
+}
