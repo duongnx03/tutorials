@@ -1,0 +1,8 @@
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\DemoEvent\bin\Debug\DemoEvent.exe.config
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\DemoEvent\bin\Debug\DemoEvent.exe
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\DemoEvent\bin\Debug\DemoEvent.pdb
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\DemoEvent\obj\Debug\DemoEvent.csproj.AssemblyReference.cache
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\DemoEvent\obj\Debug\DemoEvent.csproj.SuggestedBindingRedirects.cache
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\DemoEvent\obj\Debug\DemoEvent.csproj.CoreCompileInputs.cache
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\DemoEvent\obj\Debug\DemoEvent.exe
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\DemoEvent\obj\Debug\DemoEvent.pdb

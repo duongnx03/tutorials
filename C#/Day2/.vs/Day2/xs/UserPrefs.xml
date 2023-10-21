@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{D3DD8D2F-01A5-4BBB-B7D2-F76DF97AE675}|Default">
+  <MonoDevelop.Ide.ItemProperties.Demo3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Exercise1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.Demo2 FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercise1/Program.cs">
+    <Files>
+      <File FileName="Exercise1/Book.cs" Line="1" Column="1" />
+      <File FileName="Exercise1/BookManager.cs" Line="24" Column="48" />
+      <File FileName="Exercise1/BookTest.cs" Line="9" Column="19" />
+      <File FileName="Exercise1/library.cs" Line="1" Column="1" />
+      <File FileName="Demo3/Program.cs" Line="1" Column="1" />
+      <File FileName="Day2/Program.cs" Line="1" Column="1" />
+      <File FileName="Exercise1/Program.cs" Line="16" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Day2" expanded="True" selected="True">
+            <Node name="Day2" expanded="True" />
+            <Node name="Demo3" expanded="True" />
+            <Node name="Exercise1" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Project1 FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Day2 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,15 @@
+/Users/mac/projects/tutorials/C#/Day6/Day6/bin/Debug/net7.0/Day6
+/Users/mac/projects/tutorials/C#/Day6/Day6/bin/Debug/net7.0/Day6.deps.json
+/Users/mac/projects/tutorials/C#/Day6/Day6/bin/Debug/net7.0/Day6.runtimeconfig.json
+/Users/mac/projects/tutorials/C#/Day6/Day6/bin/Debug/net7.0/Day6.dll
+/Users/mac/projects/tutorials/C#/Day6/Day6/bin/Debug/net7.0/Day6.pdb
+/Users/mac/projects/tutorials/C#/Day6/Day6/obj/Debug/net7.0/Day6.csproj.AssemblyReference.cache
+/Users/mac/projects/tutorials/C#/Day6/Day6/obj/Debug/net7.0/Day6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/projects/tutorials/C#/Day6/Day6/obj/Debug/net7.0/Day6.AssemblyInfoInputs.cache
+/Users/mac/projects/tutorials/C#/Day6/Day6/obj/Debug/net7.0/Day6.AssemblyInfo.cs
+/Users/mac/projects/tutorials/C#/Day6/Day6/obj/Debug/net7.0/Day6.csproj.CoreCompileInputs.cache
+/Users/mac/projects/tutorials/C#/Day6/Day6/obj/Debug/net7.0/Day6.dll
+/Users/mac/projects/tutorials/C#/Day6/Day6/obj/Debug/net7.0/refint/Day6.dll
+/Users/mac/projects/tutorials/C#/Day6/Day6/obj/Debug/net7.0/Day6.pdb
+/Users/mac/projects/tutorials/C#/Day6/Day6/obj/Debug/net7.0/Day6.genruntimeconfig.cache
+/Users/mac/projects/tutorials/C#/Day6/Day6/obj/Debug/net7.0/ref/Day6.dll

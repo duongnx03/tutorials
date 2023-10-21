@@ -1,0 +1,8 @@
+D:\Teaching\Demo\T1.2210.A1\APC#\Day7\lap3\bin\Debug\lap3.exe.config
+D:\Teaching\Demo\T1.2210.A1\APC#\Day7\lap3\bin\Debug\lap3.exe
+D:\Teaching\Demo\T1.2210.A1\APC#\Day7\lap3\bin\Debug\lap3.pdb
+D:\Teaching\Demo\T1.2210.A1\APC#\Day7\lap3\obj\Debug\lap3.csproj.AssemblyReference.cache
+D:\Teaching\Demo\T1.2210.A1\APC#\Day7\lap3\obj\Debug\lap3.csproj.SuggestedBindingRedirects.cache
+D:\Teaching\Demo\T1.2210.A1\APC#\Day7\lap3\obj\Debug\lap3.csproj.CoreCompileInputs.cache
+D:\Teaching\Demo\T1.2210.A1\APC#\Day7\lap3\obj\Debug\lap3.exe
+D:\Teaching\Demo\T1.2210.A1\APC#\Day7\lap3\obj\Debug\lap3.pdb

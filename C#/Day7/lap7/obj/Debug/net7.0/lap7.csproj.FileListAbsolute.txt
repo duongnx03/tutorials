@@ -1,0 +1,15 @@
+/Users/mac/projects/tutorials/C#/Day7/lap7/bin/Debug/net7.0/lap7
+/Users/mac/projects/tutorials/C#/Day7/lap7/bin/Debug/net7.0/lap7.deps.json
+/Users/mac/projects/tutorials/C#/Day7/lap7/bin/Debug/net7.0/lap7.runtimeconfig.json
+/Users/mac/projects/tutorials/C#/Day7/lap7/bin/Debug/net7.0/lap7.dll
+/Users/mac/projects/tutorials/C#/Day7/lap7/bin/Debug/net7.0/lap7.pdb
+/Users/mac/projects/tutorials/C#/Day7/lap7/obj/Debug/net7.0/lap7.csproj.AssemblyReference.cache
+/Users/mac/projects/tutorials/C#/Day7/lap7/obj/Debug/net7.0/lap7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/projects/tutorials/C#/Day7/lap7/obj/Debug/net7.0/lap7.AssemblyInfoInputs.cache
+/Users/mac/projects/tutorials/C#/Day7/lap7/obj/Debug/net7.0/lap7.AssemblyInfo.cs
+/Users/mac/projects/tutorials/C#/Day7/lap7/obj/Debug/net7.0/lap7.csproj.CoreCompileInputs.cache
+/Users/mac/projects/tutorials/C#/Day7/lap7/obj/Debug/net7.0/lap7.dll
+/Users/mac/projects/tutorials/C#/Day7/lap7/obj/Debug/net7.0/refint/lap7.dll
+/Users/mac/projects/tutorials/C#/Day7/lap7/obj/Debug/net7.0/lap7.pdb
+/Users/mac/projects/tutorials/C#/Day7/lap7/obj/Debug/net7.0/lap7.genruntimeconfig.cache
+/Users/mac/projects/tutorials/C#/Day7/lap7/obj/Debug/net7.0/ref/lap7.dll

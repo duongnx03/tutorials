@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Node JS</title>
+    <style>
+      body {
+        animation: bg;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes bg {
+        0% {
+          background-image: url(z4798211228381_9c224fcfa2d005eb80c400d434bf261e.jpg);
+        }
+        25% {
+          background-image: url(z4798211234397_5f6e80a177c12576fca920e6f52b0264.jpg);
+        }
+        50% {
+          background-image: url(z4798211238979_67eafba414bc8e06e02335692987c52a.jpg);
+        }
+        75% {
+          background-image: url(z4798211245163_79a1da0bf25d596864d334f840881f80.jpg);
+        }
+        100% {
+          background-image: url(z4798211245202_ad9676a119f78935a88c1165658807f1.jpg);
+        }
+      }
+      h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 100px;
+        text-align: center;
+      }
+      form {
+        width: 600px;
+        border: 2px solid white;
+        margin: 0 auto;
+        padding: 20px 20px;
+        border-radius: 10px;
+      }
+      #form {
+        text-align: center;
+      }
+      #myname,
+      #message {
+        width: 530px;
+        border: 1px solid #ddd;
+        line-height: 30px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+      }
+      button {
+        background-color: blue;
+        border: 20px;
+        color: white;
+        padding: 10px 30px;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chat Node JS</h1>
+    <form id="form">
+      <input type="text" name="Name" id="myname" />
+      <input type="text" name="Message" id="message" /><br />
+      <button>Send</button>
+    </form>
+    <div class="messageArea"></div>
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+    var form = document.getElementById("form");
+    var myname = document.getElementById("myname");
+    var message = document.getElementById("message");
+    var messageArea = document.getElementById("messageArea");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      if (message.value) {
+        socket.emit("send name", myname.value);
+        socket.emit("send message", message.value);
+        message.value = "";
+      }
+    });
+
+    socket.on("send name", (username) => {
+      let name = document.createElement("span");
+      name.textContent = username;
+      messageArea.appendChild(name);
+    });
+    socket.on("send message", (chat) => {
+      let chatContent = document.createElement("span");
+      chatContent.textContent = chat;
+      messageArea.appendChild(chat);
+    });
+  </script>
+</html>

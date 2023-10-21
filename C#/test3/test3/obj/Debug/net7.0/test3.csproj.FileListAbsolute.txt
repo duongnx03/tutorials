@@ -1,0 +1,15 @@
+/Users/mac/projects/test3/test3/bin/Debug/net7.0/test3
+/Users/mac/projects/test3/test3/bin/Debug/net7.0/test3.deps.json
+/Users/mac/projects/test3/test3/bin/Debug/net7.0/test3.runtimeconfig.json
+/Users/mac/projects/test3/test3/bin/Debug/net7.0/test3.dll
+/Users/mac/projects/test3/test3/bin/Debug/net7.0/test3.pdb
+/Users/mac/projects/test3/test3/obj/Debug/net7.0/test3.csproj.AssemblyReference.cache
+/Users/mac/projects/test3/test3/obj/Debug/net7.0/test3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/projects/test3/test3/obj/Debug/net7.0/test3.AssemblyInfoInputs.cache
+/Users/mac/projects/test3/test3/obj/Debug/net7.0/test3.AssemblyInfo.cs
+/Users/mac/projects/test3/test3/obj/Debug/net7.0/test3.csproj.CoreCompileInputs.cache
+/Users/mac/projects/test3/test3/obj/Debug/net7.0/test3.dll
+/Users/mac/projects/test3/test3/obj/Debug/net7.0/refint/test3.dll
+/Users/mac/projects/test3/test3/obj/Debug/net7.0/test3.pdb
+/Users/mac/projects/test3/test3/obj/Debug/net7.0/test3.genruntimeconfig.cache
+/Users/mac/projects/test3/test3/obj/Debug/net7.0/ref/test3.dll

@@ -1,0 +1,15 @@
+/Users/mac/projects/tutorials/C#/Day7/Exam/bin/Release/net7.0/Exam
+/Users/mac/projects/tutorials/C#/Day7/Exam/bin/Release/net7.0/Exam.deps.json
+/Users/mac/projects/tutorials/C#/Day7/Exam/bin/Release/net7.0/Exam.runtimeconfig.json
+/Users/mac/projects/tutorials/C#/Day7/Exam/bin/Release/net7.0/Exam.dll
+/Users/mac/projects/tutorials/C#/Day7/Exam/bin/Release/net7.0/Exam.pdb
+/Users/mac/projects/tutorials/C#/Day7/Exam/obj/Release/net7.0/Exam.csproj.AssemblyReference.cache
+/Users/mac/projects/tutorials/C#/Day7/Exam/obj/Release/net7.0/Exam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/projects/tutorials/C#/Day7/Exam/obj/Release/net7.0/Exam.AssemblyInfoInputs.cache
+/Users/mac/projects/tutorials/C#/Day7/Exam/obj/Release/net7.0/Exam.AssemblyInfo.cs
+/Users/mac/projects/tutorials/C#/Day7/Exam/obj/Release/net7.0/Exam.csproj.CoreCompileInputs.cache
+/Users/mac/projects/tutorials/C#/Day7/Exam/obj/Release/net7.0/Exam.dll
+/Users/mac/projects/tutorials/C#/Day7/Exam/obj/Release/net7.0/refint/Exam.dll
+/Users/mac/projects/tutorials/C#/Day7/Exam/obj/Release/net7.0/Exam.pdb
+/Users/mac/projects/tutorials/C#/Day7/Exam/obj/Release/net7.0/Exam.genruntimeconfig.cache
+/Users/mac/projects/tutorials/C#/Day7/Exam/obj/Release/net7.0/ref/Exam.dll

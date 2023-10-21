@@ -1,0 +1,15 @@
+/Users/mac/projects/tutorials/C#/lap4/obj/Debug/net7.0/lap4.csproj.AssemblyReference.cache
+/Users/mac/projects/tutorials/C#/lap4/obj/Debug/net7.0/lap4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/projects/tutorials/C#/lap4/obj/Debug/net7.0/lap4.AssemblyInfoInputs.cache
+/Users/mac/projects/tutorials/C#/lap4/obj/Debug/net7.0/lap4.AssemblyInfo.cs
+/Users/mac/projects/tutorials/C#/lap4/obj/Debug/net7.0/lap4.csproj.CoreCompileInputs.cache
+/Users/mac/projects/tutorials/C#/lap4/bin/Debug/net7.0/lap4
+/Users/mac/projects/tutorials/C#/lap4/bin/Debug/net7.0/lap4.deps.json
+/Users/mac/projects/tutorials/C#/lap4/bin/Debug/net7.0/lap4.runtimeconfig.json
+/Users/mac/projects/tutorials/C#/lap4/bin/Debug/net7.0/lap4.dll
+/Users/mac/projects/tutorials/C#/lap4/bin/Debug/net7.0/lap4.pdb
+/Users/mac/projects/tutorials/C#/lap4/obj/Debug/net7.0/lap4.dll
+/Users/mac/projects/tutorials/C#/lap4/obj/Debug/net7.0/refint/lap4.dll
+/Users/mac/projects/tutorials/C#/lap4/obj/Debug/net7.0/lap4.pdb
+/Users/mac/projects/tutorials/C#/lap4/obj/Debug/net7.0/lap4.genruntimeconfig.cache
+/Users/mac/projects/tutorials/C#/lap4/obj/Debug/net7.0/ref/lap4.dll

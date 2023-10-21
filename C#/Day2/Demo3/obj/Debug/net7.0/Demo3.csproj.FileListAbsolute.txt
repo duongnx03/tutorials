@@ -1,0 +1,15 @@
+/Users/mac/projects/Day2/Demo3/bin/Debug/net7.0/Demo3
+/Users/mac/projects/Day2/Demo3/bin/Debug/net7.0/Demo3.deps.json
+/Users/mac/projects/Day2/Demo3/bin/Debug/net7.0/Demo3.runtimeconfig.json
+/Users/mac/projects/Day2/Demo3/bin/Debug/net7.0/Demo3.dll
+/Users/mac/projects/Day2/Demo3/bin/Debug/net7.0/Demo3.pdb
+/Users/mac/projects/Day2/Demo3/obj/Debug/net7.0/Demo3.csproj.AssemblyReference.cache
+/Users/mac/projects/Day2/Demo3/obj/Debug/net7.0/Demo3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/projects/Day2/Demo3/obj/Debug/net7.0/Demo3.AssemblyInfoInputs.cache
+/Users/mac/projects/Day2/Demo3/obj/Debug/net7.0/Demo3.AssemblyInfo.cs
+/Users/mac/projects/Day2/Demo3/obj/Debug/net7.0/Demo3.csproj.CoreCompileInputs.cache
+/Users/mac/projects/Day2/Demo3/obj/Debug/net7.0/Demo3.dll
+/Users/mac/projects/Day2/Demo3/obj/Debug/net7.0/refint/Demo3.dll
+/Users/mac/projects/Day2/Demo3/obj/Debug/net7.0/Demo3.pdb
+/Users/mac/projects/Day2/Demo3/obj/Debug/net7.0/Demo3.genruntimeconfig.cache
+/Users/mac/projects/Day2/Demo3/obj/Debug/net7.0/ref/Demo3.dll

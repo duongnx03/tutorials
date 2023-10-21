@@ -1,0 +1,8 @@
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\Practice2\bin\Debug\Practice2.exe.config
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\Practice2\bin\Debug\Practice2.exe
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\Practice2\bin\Debug\Practice2.pdb
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\Practice2\obj\Debug\Practice2.csproj.AssemblyReference.cache
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\Practice2\obj\Debug\Practice2.csproj.SuggestedBindingRedirects.cache
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\Practice2\obj\Debug\Practice2.csproj.CoreCompileInputs.cache
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\Practice2\obj\Debug\Practice2.exe
+D:\Teaching\Demo\T1.2210.A1\APC#\Day5\Practice2\obj\Debug\Practice2.pdb

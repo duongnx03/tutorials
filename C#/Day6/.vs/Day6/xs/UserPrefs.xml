@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{52941D5E-DC6A-4506-9EF8-38471F0961E7}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Day6 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Day6/StudentManager.cs">
+    <Files>
+      <File FileName="Day6/Program.cs" />
+      <File FileName="Day6/Student.cs" Line="66" Column="22" />
+      <File FileName="Day6/StudentManager.cs" Line="63" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Day6" expanded="True">
+            <Node name="Day6" expanded="True">
+              <Node name="StudentManager.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

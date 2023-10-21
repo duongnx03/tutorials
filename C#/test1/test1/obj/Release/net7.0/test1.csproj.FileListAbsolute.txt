@@ -1,0 +1,12 @@
+/Users/mac/projects/test1/test1/bin/Release/net7.0/test1.deps.json
+/Users/mac/projects/test1/test1/bin/Release/net7.0/test1.dll
+/Users/mac/projects/test1/test1/bin/Release/net7.0/test1.pdb
+/Users/mac/projects/test1/test1/obj/Release/net7.0/test1.csproj.AssemblyReference.cache
+/Users/mac/projects/test1/test1/obj/Release/net7.0/test1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/projects/test1/test1/obj/Release/net7.0/test1.AssemblyInfoInputs.cache
+/Users/mac/projects/test1/test1/obj/Release/net7.0/test1.AssemblyInfo.cs
+/Users/mac/projects/test1/test1/obj/Release/net7.0/test1.csproj.CoreCompileInputs.cache
+/Users/mac/projects/test1/test1/obj/Release/net7.0/test1.dll
+/Users/mac/projects/test1/test1/obj/Release/net7.0/refint/test1.dll
+/Users/mac/projects/test1/test1/obj/Release/net7.0/test1.pdb
+/Users/mac/projects/test1/test1/obj/Release/net7.0/ref/test1.dll
