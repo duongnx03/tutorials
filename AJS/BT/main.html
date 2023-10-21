@@ -13,11 +13,26 @@
         table {
             margin-left: auto;
             margin-right: auto;
-            border-style: solid;
+            border: none;
+        }
+
+        hr {
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+
+        th {
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
 
         td {
-            padding: 20px;
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
 
         td:hover {
@@ -31,75 +46,64 @@
         a:hover {
             color: red;
         }
-        .center{
+
+        .center {
             text-align: center;
         }
     </style>
 </head>
 
 <body ng-app="myApp">
+    <hr noshade="">
     <table>
         <tr>
             <td><a href="#/!">Home</a> </td>
+            <td><a href="#">Student List</a></td>
             <td><a href="#!b">Add New Student</a></td>
             <td><a href="#">About</a></td>
         </tr>
     </table>
-    <br>
+    <hr noshade="">
     <div class="center">
         <div ng-view ng-controller="myController"></div>
     </div>
+    <br>
+
     <script>
         var app = angular.module("myApp", ["ngRoute"])
         app.config(function ($routeProvider) {
             $routeProvider
                 .when("/", { templateUrl: "home.html" })
                 .when("/b", { templateUrl: "addNewStudent.html" })
-                .when("/c", { templateUrl: "editStudents.html" })
         })
         app.controller("myController", function ($scope, $http) {
-            $http.get("students.json").then(function (response) {
+            $http.get("student.json").then(function (response) {
                 $scope.myData = response.data.students;
                 $scope.obj = {};
             })
 
-            $scope.delete = function(id){
-                for(i in $scope.myData){
-                    if($scope.myData[i].id == id){
-                        $scope.myData.splice(i,1);
+            $scope.delete = function (id) {
+                for (i in $scope.myData) {
+                    if ($scope.myData[i].id == id) {
+                        $scope.myData.splice(i, 1);
                     }
                 }
             }
-            $scope.add = function(){
+            $scope.add = function () {
                 var id = $scope.obj.id
                 var name = $scope.obj.name
-                var address = $scope.obj.address
-                var email = $scope.obj.email
+                var mark = $scope.obj.mark
                 $scope.myData.push({
                     id: id,
                     name: name,
-                    address: address,
-                    email: email
-
+                    mark: mark
                 })
                 $scope.obj = {};
                 alert("Add New Successfully!")
             }
-            $scope.goToEdit = function(id){
-                for(i in $scope.myData){
-                    if($scope.myData[i].id == id){
-                        $scope.obj = angular.copy($scope.myData[i]);
-                    }
-                }
-            }
-            $scope.saveEdit = function(){
-                for(i in $scope.myData){
-                    if($scope.myData[i].id == $scope.obj.id){
-                        $scope.myData[i] = $scope.obj;
-                    }
-                }
-            }
+
         })
     </script>
 </body>
+
 </html>

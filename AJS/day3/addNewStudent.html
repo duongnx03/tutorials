@@ -1,2 +1,26 @@
 <h1>Add New Student</h1>
-<form action=""></form>
+<form name="myForm">
+    <div>
+        ID <br>
+        <input type="text" name="id" ng-model="obj.id">
+        <span style="color: red;" ng-show="myForm.id.$error.required">Id id required </span>
+    </div>
+    <div>
+        Name <br>
+        <input type="text" name="name" ng-model="obj.name">
+        <span style="color: red;" ng-show="myForm.name.$error.required">Name id required </span>
+    </div>
+    <div>
+        Address <br>
+        <input type="text" name="address" ng-model="obj.address">
+        <span style="color: red;" ng-show="myForm.address.$error.required">Address id required </span>
+    </div>
+    <div>
+        Email <br>
+        <input type="email" name="email" ng-model="obj.email">
+        <span style="color: red;" ng-show="myForm.email.$error.required">Email id required </span>
+    </div>
+    <div>
+        <input type="submit" value="Add New Students" ng-click="add()" ng-disabled="myForm.$invalid">
+    </div>
+</form>

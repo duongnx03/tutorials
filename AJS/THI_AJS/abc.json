@@ -1,0 +1,10 @@
+
+{
+    "course":
+    [
+        {"no": "1", "id": "CO1", "name": "Java Programming" , "type": "LT" ,"fee": "500"},
+        {"no": "2", "id": "CO2", "name": "React Native + NodeJS" , "type": "LT" ,"fee": "400"},
+        {"no": "3", "id": "CO3", "name": "Design a Simple Web with HTML5-CSS3" , "type": "ST" ,"fee": "300"},
+        {"no": "4", "id": "CO4", "name": "UI/UX Principle" , "type": "ST" ,"fee": "200"}
+    ]
+}

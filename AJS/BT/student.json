@@ -1,0 +1,10 @@
+{
+    "students":
+    [
+        {"id": "1", "name": "A", "mark": "30"},
+        {"id": "2", "name": "B", "mark": "90"},
+        {"id": "3", "name": "C", "mark": "110"},
+        {"id": "4", "name": "D", "mark": "80"},
+        {"id": "5", "name": "E", "mark": "70"}
+    ]
+}

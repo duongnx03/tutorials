@@ -8,20 +8,21 @@
     <script src="angular.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
- 
 </head>
 <body>
     <div ng-app="myApp" ng-controller="myController">
-        <table border="1" class="table table-hover">
+        <table
             <tr>
-                <th>Name</th>
-                <th>Phone</th>
-                <th>City</th>
+                <th>id</th>
+                <th>name</th>
+                <th>mark</th>
+                <th>action</th>
             </tr>
             <tr ng-repeat="x in myData">
-                <td>{{x.Name}}</td>
-                <td>{{x.Phone}}</td>
-                <td>{{x.City}}</d>
+                <td>{{x.id}}</td>
+                <td>{{x.name}}</td>
+                <td>{{x.mark}}</td>
+                <td><a href="#" ng-click="delete(x.id)">Delete</a></td>
             </tr>
         </table>
     </div>
@@ -29,8 +30,8 @@
     <script>
         var app = angular.module("myApp", [])
         app.controller("myController", function($scope, $http){
-            $http.get("employee.json").then(function(response){
-                $scope.myData  = response.data.records;
+            $http.get("student.json").then(function(response){
+                $scope.myData  = response.data.students;
             })
         })
     </script>

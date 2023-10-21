@@ -13,11 +13,21 @@
         table {
             margin-left: auto;
             margin-right: auto;
-            border-style: solid;
+            border: none;
+        }
+
+        th {
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
 
         td {
-            padding: 20px;
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
 
         td:hover {
@@ -31,75 +41,83 @@
         a:hover {
             color: red;
         }
-        .center{
+
+        .center {
             text-align: center;
+        }
+        .c{
+            border: solid;
+        }
+        tr td a{
+            padding-left: 30px;
+            padding-right: 30px;
         }
     </style>
 </head>
 
 <body ng-app="myApp">
+
     <table>
-        <tr>
+        <tr class="c">
             <td><a href="#/!">Home</a> </td>
-            <td><a href="#!b">Add New Student</a></td>
-            <td><a href="#">About</a></td>
+            <td><a href="#!b">Course List</a></td>
+            <td><a href="#!c">Add New Course</a></td>
+            <td><a href="#">About us</a></td>
         </tr>
     </table>
-    <br>
+
+    <!-- <h1>Course List</h1>
+    Enter Course name: <input type="text"><br>
+    Long-term<input type="radio" name="a">
+    Short-term<input type="radio" name="a">
+    All<input type="radio" name="a"> -->
+
+    
     <div class="center">
         <div ng-view ng-controller="myController"></div>
     </div>
+    <br>
+
     <script>
         var app = angular.module("myApp", ["ngRoute"])
         app.config(function ($routeProvider) {
             $routeProvider
-                .when("/", { templateUrl: "home.html" })
-                .when("/b", { templateUrl: "addNewStudent.html" })
-                .when("/c", { templateUrl: "editStudents.html" })
+                .when("/", { templateUrl: "index.html" })
+                .when("/b", { templateUrl: "home.html" })
+                .when("/c", { templateUrl: "add.html" })
         })
         app.controller("myController", function ($scope, $http) {
-            $http.get("students.json").then(function (response) {
-                $scope.myData = response.data.students;
+            $http.get("abc.json").then(function (response) {
+                $scope.myData = response.data.course;
                 $scope.obj = {};
             })
 
-            $scope.delete = function(id){
-                for(i in $scope.myData){
-                    if($scope.myData[i].id == id){
-                        $scope.myData.splice(i,1);
+            $scope.delete = function (id) {
+                for (i in $scope.myData) {
+                    if ($scope.myData[i].id == id) {
+                        $scope.myData.splice(i, 1);
                     }
                 }
             }
-            $scope.add = function(){
+            $scope.add = function () {
+                var no = $scope.obj.no
                 var id = $scope.obj.id
                 var name = $scope.obj.name
-                var address = $scope.obj.address
-                var email = $scope.obj.email
+                var type = $scope.obj.type
+                var fee = $scope.obj.fee
                 $scope.myData.push({
+                    no: no,
                     id: id,
                     name: name,
-                    address: address,
-                    email: email
-
+                    type: type,
+                    fee: fee
                 })
                 $scope.obj = {};
                 alert("Add New Successfully!")
             }
-            $scope.goToEdit = function(id){
-                for(i in $scope.myData){
-                    if($scope.myData[i].id == id){
-                        $scope.obj = angular.copy($scope.myData[i]);
-                    }
-                }
-            }
-            $scope.saveEdit = function(){
-                for(i in $scope.myData){
-                    if($scope.myData[i].id == $scope.obj.id){
-                        $scope.myData[i] = $scope.obj;
-                    }
-                }
-            }
+
         })
     </script>
 </body>
+
 </html>

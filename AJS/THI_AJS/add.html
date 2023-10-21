@@ -1,0 +1,27 @@
+<h1>Add New Course</h1>
+<form name="myForm" align="left">
+    <div>
+        ID <br>
+        <input type="text" name="id" ng-model="obj.id">
+        <span style="color: red;" ng-show="myForm.id.$error.required"> <br> ID is required <br> ID has format Cxx, x:digit </span>
+    </div><br>
+    <div>
+        Name <br>
+        <input type="text" name="name" ng-model="obj.name">
+        <span style="color: red;" ng-show="myForm.name.$error.required"><br> Name id required </span>
+    </div><br>
+    <div>
+        Type <br>
+        <input type="radio" name="b" ng-model="obj.type">Long-term <input type="radio" name="b" ng-model="obj.type">Short-term
+        
+    </div><br>
+    <div>
+        Fee <br>
+        <input type="text" name="fee" ng-model="obj.fee">
+        <span style="color: red;" ng-show="myForm.fee.$error.required"><br> Fee is required <br> Invalid Fee (must be >= 100) </span>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Add" ng-click="add()" ng-disabled="myForm.$invalid">
+    </div>
+</form>
