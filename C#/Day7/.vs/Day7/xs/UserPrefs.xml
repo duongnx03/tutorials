@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{0E6F29D0-F8CC-4DD9-A6DA-FA859DCFE778}|Default">
+  <MonoDevelop.Ide.ItemProperties.lap6 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.lap7 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Exam/BookTest.cs">
     <Files>
       <File FileName="Exam/BookEvent.cs" />
       <File FileName="Exam/BookTest.cs" Line="57" Column="10" />
-      <File FileName="Exam/BookController.cs" Line="166" Column="57" />
-      <File FileName="../lap4/ProductManager.cs" Line="1" Column="1" />
+      <File FileName="Exam/BookController.cs" />
+      <File FileName="../lap4/ProductManager.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Day7" expanded="True">
-            <Node name="Exam">
+            <Node name="Exam" expanded="True">
               <Node name="BookTest.cs" selected="True" />
             </Node>
             <Node name="lap4" expanded="True" />
@@ -20,14 +21,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Day7 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.lap5 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.lap6 FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Exam PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Day7 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

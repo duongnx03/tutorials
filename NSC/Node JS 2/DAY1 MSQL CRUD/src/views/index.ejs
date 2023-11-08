@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <h1>List Product</h1>
+        <a href="/create" class="btn btn-info">Create Product</a>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <%products.forEach(item => { %>
+                    <tr>
+                        <td><%= item.id%></td>
+                        <td><%= item.name%></td>
+                        <td><%= item.price%></td>
+                        <td><%= item.description%></td>
+                        <td>
+                            <a href="/edit/<%=item.id%>" class="btn btn-warning">Edit</a>
+                            <a href="/delete/<%=item.id%>" class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                <%}) %>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<div class="content">
+    <table>
+        <tr>
+            <td colspan="5">
+                <a class="create_new" href="/them">Create New</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                Title <input class="search" id="tim" type="text" name="search">
+                <button id="nut">Tìm kiếm</button>
+                <script src="jquery.min.js"></script>
+                <script>
+                    $("#nut").click(function () {
+                        var str = $("#tim").val();
+                        var url = '/tim/' + str;
+                        if (str != "") {
+                            window.location.href = url;
+                        } else {
+                            alert("input data to search");
+                        }
+                    });
+                </script>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <H1>View Books</H1>
+            </td>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>TITLE</th>
+            <th>DESCRIPTION</th>
+            <th>AUTHOR</th>
+            <th>ACTIONS</th>
+        </tr>
+        <% for(var i=0; i<dulieu.length;i++) { %>
+            <tr class="giua">
+                <td><%- dulieu[i].id %></td>
+                <td><%- dulieu[i].Title %></td>
+                <td><%- dulieu[i].Description %></td>
+                <td><%- dulieu[i].Author %></td>
+                <td>
+                    <a href="/sua/<%= dulieu[i]._id%>">Update</a> |
+                    <a href="/xoa/<%= dulieu[i]._id%>">Xóa</a>
+                </td>
+            </tr>
+            <% } %>
+    </table>
+</div>

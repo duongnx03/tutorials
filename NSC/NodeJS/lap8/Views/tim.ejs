@@ -1,0 +1,32 @@
+<div class="content">
+    <table style="width:100%">
+        <tr>
+            <td colspan="5">
+                <a class="create_new" href="/them">Create New</a> |
+                <a class="create_new" href="/">Back</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <H1>Search Books</H1>
+            </td>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>TITLE</th>
+            <th>DESCRIPTION</th>
+            <th>AUTHOR</th>
+            <th>ACTIONS</th>
+        </tr>
+        <% for(var i=0; i<dulieu.length;i++) { %>
+            <tr class="giua">
+                <td><%- dulieu[i].id %></td>
+                <td><%- dulieu[i].Title %></td>
+                <td><%- dulieu[i].Description %></td>
+                <td><%- dulieu[i].Author %></td>
+                <td>
+                    <a href="/sua/<%= dulieu[i]._id%>">Update</a>
+                </td>
+            </tr>
+            <% } %>
+    </table>
