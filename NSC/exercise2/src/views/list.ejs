@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>List</title>
+    <style>
+        th {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .name{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Laptops List</h1>
+        <div class="input-group mb-3">
+            <input type="number" class="form-control" id="minPrice" placeholder="Min Price" aria-label="Min Price" aria-describedby="basic-addon1"><br><br>
+            <input type="number" class="form-control" id="maxPrice" placeholder="Max Price" aria-label="Max Price" aria-describedby="basic-addon1"><br><br>
+            <button class="btn btn-outline-primary" id="searchByPrice">Search by Price</button><br><br>
+        </div>
+        <% if (message) { %>
+            <div class="alert alert-success alert-dismissable">
+                <button class="btn btn-close" data-bs-dismiss="alert"></button>
+                <strong>Success!</strong>
+                <%= message %>
+            </div>
+        <% } %>
+        
+        <a href="/laptop/create" class="btn btn-info">Create</a><br><br>
+        <table class="table table-hover">
+            <tr>
+                <th>ID</th>
+                <th id="nameHeader" class="name">Name</th>
+                <th>Price</th>
+                <th>Image</th>
+                <th>Action</th>
+            </tr>
+            <% laptops.forEach(item => { %>          
+                <tr class="laptop-row" data-name="<%= item.name %>">
+                    <td><%= item.id %></td>
+                    <td><%= item.name %></td>
+                    <td><%= item.price %></td>   
+                    <td>
+                        <img src="<%= item.image %>" alt="image" width="100px" class="img-thumbnail"> 
+                    </td>
+                    <td>
+                        <a href="/laptop/edit/<%= item._id %>" class="btn btn-primary">Update</a>
+                        <a href="/laptop/delete/<%= item._id %>" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>              
+            <% }) %>
+        </table>     
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#nameHeader').click(function() {
+                // Sắp xếp danh sách theo name (tự động)
+                let rows = $('.laptop-row').get();
+                rows.sort(function(a, b) {
+                    var nameA = $(a).data('name');
+                    var nameB = $(b).data('name');
+                    return nameA.localeCompare(nameB);
+                });
+                $.each(rows, function(index, row) {
+                    $('.table > tbody').append(row);
+                });
+            });
+
+            $('#searchByPrice').click(function() {
+            var minPrice = $('#minPrice').val();
+            var maxPrice = $('#maxPrice').val();
+
+            $('.laptop-row').each(function() {
+                var price = parseInt($(this).find('td:eq(2)').text());
+
+                if ((isNaN(minPrice) || price >= parseInt(minPrice)) && (isNaN(maxPrice) || price <= parseInt(maxPrice))) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+        });
+        });
+    </script>
+</body>
+</html>

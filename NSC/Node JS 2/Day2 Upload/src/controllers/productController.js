@@ -74,7 +74,7 @@ const editProduct = async(req, res)=>{
             for (const field in err.errors) {
                 errors[field] = err.errors[field].message;
             }
-            res.render('create', { errors, data: dataSubmit });
+            res.render('edit', { errors, data: dataSubmit });
         }
     })
 }
