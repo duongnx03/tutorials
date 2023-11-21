@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{BFF3133C-FBD7-4CD6-973D-A1639A523022}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CodeFirst/Views/Student/Edit.cshtml">
+    <Files>
+      <File FileName="CodeFirst/Models/Student.cs" Line="20" Column="2" />
+      <File FileName="CodeFirst/Controllers/StudentController.cs" Line="57" Column="37" />
+      <File FileName="CodeFirst/Views/Student/Index.cshtml" Line="19" Column="1" />
+      <File FileName="CodeFirst/Views/Student/Create.cshtml" Line="18" Column="1" />
+      <File FileName="CodeFirst/Views/Student/Edit.cshtml" Line="13" Column="25" />
+      <File FileName="CodeFirst/Program.cs" Line="1" Column="1" />
+      <File FileName="CodeFirst/appsettings.json" Line="1" Column="1" />
+      <File FileName="CodeFirst/Data/StudentContext.cs" Line="1" Column="1" />
+      <File FileName="CodeFirst/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="CodeFirst/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="CodeFirst/Views/_ViewImports.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CodeFirst" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CodeFirst PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <% if(errors){ %>
+            <p class="text-danger">
+                <%= errors %>
+            </p>
+        <% } %>
+        <form action="/event/create" method="post">
+            <div class="form-group">
+                <label for="name">Id</label>
+                <input type="text" name="id" class="form-control" value="<%= data ? data.id : '' %>" />
+                <span class="text-danger"><%= errors ? errors.id : '' %></span>
+            </div>
+            <div class="form-group">
+                <label for="name">Description</label>
+                <input type="text" name="description" class="form-control" value="<%= data ? data.description : '' %>" />
+                <span class="text-danger"><%= errors ? errors.description : '' %></span>
+            </div>
+            <div class="form-group">
+                <label for="price">Date & Time</label>
+                <input type="text" name="datetime" class="form-control" value="<%= data ? data.datetime : '' %>" />
+                <span class="text-danger"><%= errors ? errors.datetime : '' %></span>
+            </div>
+            <div class="form-group">
+                <label for="quantity">Location</label>
+                <input type="text" name="location" class="form-control" value="<%= data ? data.location : '' %>" />
+                <span class="text-danger"><%= errors ? errors.location : '' %></span>
+            </div>
+            <div class="form-group">
+                <label for="quantity">Post Code</label>
+                <input type="number" name="postcode" class="form-control" value="<%= data ? data.postcode : '' %>" />
+                <span class="text-danger"><%= errors ? errors.postcode : '' %></span>
+            </div>
+            <button type="submit" class="btn btn-info">Create</button>
+        </form>
+    </div>
+</body>
+</html>
