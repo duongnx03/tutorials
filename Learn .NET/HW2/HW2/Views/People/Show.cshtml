@@ -1,0 +1,42 @@
+﻿@model IEnumerable<HW2.Models.TbPerson>
+
+@{
+    ViewData["Title"] = "Show";
+}
+
+<h1>Hello, @Context.Session.GetString("username")</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th> No </th>
+            <th> Id </th>
+            <th> Name</th>
+            <th>Balance</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var no = 1;
+            var id = 1000;
+        }
+@foreach (var item in Model) {
+            <tr>
+                <td>
+                @no @{no++;}
+            </td>
+            <td>
+                @id @{id++;}
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Balance)
+            </td>
+        </tr>
+}   
+    </tbody>
+</table>
+
+<a asp-action="Menu">Click here to return Menu page</a>

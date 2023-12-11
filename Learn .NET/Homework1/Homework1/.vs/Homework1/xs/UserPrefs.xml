@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{3751A03D-DA11-497E-9412-699D5C3016A3}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Homework1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Homework1/Controllers/NewsController.cs">
+    <Files>
+      <File FileName="Homework1/Models/tbNews.cs" Line="11" Column="44" />
+      <File FileName="Homework1/Models/tbAdmin.cs" Line="12" Column="2" />
+      <File FileName="Homework1/Models/NewContext.cs" Line="19" Column="46" />
+      <File FileName="Homework1/Program.cs" Line="27" Column="18" />
+      <File FileName="Homework1/appsettings.json" Line="3" Column="46" />
+      <File FileName="Homework1/Migrations/20231128094904_InitialCreate.cs" Line="1" Column="1" />
+      <File FileName="Homework1/Controllers/NewsController.cs" Line="49" Column="55" />
+      <File FileName="Homework1/Views/News/Index.cshtml" Line="4" Column="1" />
+      <File FileName="Homework1/Views/News/Admin.cshtml" Line="8" Column="41" />
+      <File FileName="Homework1/Views/News/ShowAllNews.cshtml" Line="1" Column="44" />
+      <File FileName="Homework1/Views/News/AddNews.cshtml" Line="1" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Homework1" expanded="True">
+            <Node name="Homework1">
+              <Node name="Controllers">
+                <Node name="NewsController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

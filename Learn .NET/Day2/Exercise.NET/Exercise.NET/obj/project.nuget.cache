@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F8pqGdj1iiVTVMSREdFHiXmoJ23bz/GmSKaLpkypDkz64d05+//Bsh2ZXM02CNMar5MaZZ66JTAOwuiUNh6EGw==",
+  "dgSpecHash": "xzumwSf/LvR7TxT1Uq71NRhkt25Ya+IpjSCk0gwc7ja0NA4snaaQiOTwE2ZWQqPhecPKz4HDpvYJVhROxyMvtg==",
   "success": true,
-  "projectFilePath": "/Users/mac/projects/tutorials/# .NET/Day2/Exercise.NET/Exercise.NET/Exercise.NET.csproj",
+  "projectFilePath": "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Exercise.NET.csproj",
   "expectedPackageFiles": [
     "/Users/mac/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

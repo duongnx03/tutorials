@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{FE1991F6-DAB9-4137-8CC7-B97234F5A21A}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mac/projects/tutorials/Learn .NET/Day5/Authorize/Authorize/Controllers/AccountController.cs" relfile="Authorize/Controllers/AccountController.cs" line="44" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Authorize PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Authorize/Views/Admin/Create.cshtml">
+    <Files>
+      <File FileName="Authorize/Controllers/AccountController.cs" Line="44" Column="4" />
+      <File FileName="Authorize/Controllers/AdminController.cs" Line="18" Column="30" />
+      <File FileName="Authorize/Models/Account.cs" Line="11" Column="30" />
+      <File FileName="Authorize/Views/Admin/Create.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Authorize" expanded="True">
+            <Node name="Authorize">
+              <Node name="Models" expanded="True" />
+              <Node name="Security" expanded="True" />
+              <Node name="Views">
+                <Node name="Account" expanded="True" />
+                <Node name="Admin">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

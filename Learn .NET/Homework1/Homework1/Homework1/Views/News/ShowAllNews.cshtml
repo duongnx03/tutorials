@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Homework1.Models.tbNews>
+
+@{
+    ViewData["Title"] = "ShowAllNews";
+}
+
+<h1>ShowAllNews</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HeadLines)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContentOfNews)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HeadLines)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContentOfNews)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Admin">Back</a>

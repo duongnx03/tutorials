@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoFluentAPI", "DemoFulentAPI\DemoFluentAPI.csproj", "{15AF9859-A3EC-4732-82BD-DD5490D8EBBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_DTO", "Demo_DTO\Demo_DTO.csproj", "{54FD2B7C-9F42-4D3C-AFE2-CE366312CA5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15AF9859-A3EC-4732-82BD-DD5490D8EBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AF9859-A3EC-4732-82BD-DD5490D8EBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AF9859-A3EC-4732-82BD-DD5490D8EBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AF9859-A3EC-4732-82BD-DD5490D8EBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54FD2B7C-9F42-4D3C-AFE2-CE366312CA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54FD2B7C-9F42-4D3C-AFE2-CE366312CA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54FD2B7C-9F42-4D3C-AFE2-CE366312CA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54FD2B7C-9F42-4D3C-AFE2-CE366312CA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7DE0DB0-1CAF-4EDD-A578-17BDFD8C2707}
+	EndGlobalSection
+EndGlobal

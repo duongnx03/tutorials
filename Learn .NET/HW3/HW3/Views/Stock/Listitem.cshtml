@@ -1,0 +1,72 @@
+﻿@model HW3.Models.ModelView
+@{
+    ViewData["Title"] = "Listitem";
+}
+
+<h1>Create</h1>
+
+<h4>Item</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Item.ItemCode" class="control-label"></label>
+                <input asp-for="Item.ItemCode" class="form-control" />
+                <span asp-validation-for="Item.ItemCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Item.ItemName" class="control-label"></label>
+                <input asp-for="Item.ItemName" class="form-control" />
+                <span asp-validation-for="Item.ItemName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Item.Price" class="control-label"></label>
+                <input asp-for="Item.Price" class="form-control" />
+                <span asp-validation-for="Item.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Item.UploadImage" class="control-label"></label>
+                <input asp-for="Item.UploadImage" class="form-control"/>
+                <span asp-validation-for="Item.UploadImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Item.ItemName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Item.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Item.Image)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ItemName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <img src="~/images/@item.Image" width="100px"/>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

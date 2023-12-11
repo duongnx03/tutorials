@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "Menu";
+}
+
+<h1>Hello, @Context.Session.GetString("username")</h1>
+
+<a asp-action="Show">Show All</a>
+<br />
+<a asp-action="Remove">Remove</a>
+

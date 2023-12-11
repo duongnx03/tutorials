@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{F3CD9847-1E4E-47B8-A27C-EEDDAD1439FF}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Homework2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Homework2/Views/People/Remove.cshtml">
+    <Files>
+      <File FileName="Homework2/Program.cs" Line="46" Column="33" />
+      <File FileName="Homework2/appsettings.json" Line="14" Column="1" />
+      <File FileName="Homework2/Models/BankDbContext.cs" Line="1" Column="1" />
+      <File FileName="Homework2/Models/TbPerson.cs" Line="15" Column="2" />
+      <File FileName="Homework2/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Homework2/Controllers/PeopleController.cs" Line="22" Column="10" />
+      <File FileName="Homework2/Views/Menu/Show.cshtml" Line="6" Column="51" />
+      <File FileName="Homework2/Views/People/Remove.cshtml" Line="1" Column="1" />
+      <File FileName="Homework2/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Homework2/Views/Show.cshtml" Line="25" Column="22" />
+      <File FileName="Homework2/Views/People/Show.cshtml" Line="1" Column="29" />
+      <File FileName="Homework2/Views/People/Details.cshtml" Line="38" Column="1" />
+      <File FileName="Homework2/Views/People/Login.cshtml" Line="25" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Homework2" expanded="True">
+            <Node name="Homework2">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views">
+                <Node name="People" expanded="True">
+                  <Node name="Remove.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

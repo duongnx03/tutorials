@@ -30,7 +30,7 @@ class Calculator
     elsif @operator == '/'
       return @number1 / @number2
     else 
-      puts "Error"
+      puts "Invalid operator"
     end
   end
 end 

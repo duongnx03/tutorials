@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{BD228FE3-E211-4FD3-8982-562D7A3BA114}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Homework5/Controllers/CustomerController.cs">
+    <Files>
+      <File FileName="Homework5/Program.cs" Line="1" Column="1" />
+      <File FileName="Homework5/appsettings.json" Line="1" Column="1" />
+      <File FileName="Homework5/Models/Customer.cs" />
+      <File FileName="Homework5/Models/CustomerDbContext.cs" />
+      <File FileName="Homework5/Controllers/CustomerController.cs" Line="34" Column="47" />
+      <File FileName="Homework5/Views/Customer/Create.cshtml" />
+      <File FileName="Homework5/Views/Customer/UpdateOrDelete.cshtml" Line="9" Column="31" />
+      <File FileName="Homework5/Views/Home/Index.cshtml" />
+      <File FileName="Homework5/Views/Customer/Index.cshtml" Line="38" Column="1" />
+      <File FileName="Homework5/Views/Customer/Edit.cshtml" />
+      <File FileName="Homework5/Controllers/HomeController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Homework5" expanded="True">
+            <Node name="Homework5">
+              <Node name="Controllers" expanded="True">
+                <Node name="CustomerController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Customer" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Homework5 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

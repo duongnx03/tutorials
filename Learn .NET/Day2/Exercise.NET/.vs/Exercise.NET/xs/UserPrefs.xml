@@ -1,24 +1,21 @@
 ﻿<Properties StartupConfiguration="{02D94CA8-F5D1-4120-80B1-951C09D8EFEC}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Exercise.NET/Views/Customer/Edit.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercise.NET/Repository/CustomerRepo.cs">
     <Files>
-      <File FileName="Exercise.NET/Data/CustomerContext.cs" />
+      <File FileName="Exercise.NET/Data/CustomerContext.cs" Line="1" Column="1" />
       <File FileName="Exercise.NET/Models/Customer.cs" />
       <File FileName="Exercise.NET/appsettings.json" />
-      <File FileName="Exercise.NET/Program.cs" Line="36" Column="1" />
-      <File FileName="Exercise.NET/IRepository/ICustomerRepo.cs" Line="18" Column="57" />
+      <File FileName="Exercise.NET/Program.cs" />
+      <File FileName="Exercise.NET/IRepository/ICustomerRepo.cs" Line="7" Column="3" />
       <File FileName="Exercise.NET/Repository/CustomerRepo.cs" Line="77" Column="31" />
-      <File FileName="Exercise.NET/Controllers/CustomerController.cs" Line="54" Column="20" />
+      <File FileName="Exercise.NET/Controllers/CustomerController.cs" Line="1" Column="14" />
       <File FileName="Exercise.NET/Views/Index.cshtml" />
-      <File FileName="Exercise.NET/Views/Customer/Index.cshtml" Line="16" Column="67" />
+      <File FileName="Exercise.NET/Views/Customer/Index.cshtml" Line="57" Column="76" />
       <File FileName="Exercise.NET/Views/Customer/Create.cshtml" />
       <File FileName="Exercise.NET/Controllers/HomeController.cs" />
-      <File FileName="Exercise.NET/Views/Customer/Edit.cshtml" Line="4" Column="3" />
+      <File FileName="Exercise.NET/Views/Customer/Edit.cshtml" />
+      <File FileName="Exercise.NET/Models/ErrorViewModel.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,13 +23,11 @@
           <Node name="Exercise.NET" expanded="True">
             <Node name="Exercise.NET">
               <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
               <Node name="IRepository" expanded="True" />
-              <Node name="Repository" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Customer" expanded="True">
-                  <Node name="Edit.cshtml" selected="True" />
-                </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Repository" expanded="True">
+                <Node name="CustomerRepo.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -41,4 +36,8 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Exercise.NET PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>

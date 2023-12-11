@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mac/projects/tutorials/# .NET/Day2/Exercise.NET/Exercise.NET/Exercise.NET.csproj": {}
+    "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Exercise.NET.csproj": {}
   },
   "projects": {
-    "/Users/mac/projects/tutorials/# .NET/Day2/Exercise.NET/Exercise.NET/Exercise.NET.csproj": {
+    "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Exercise.NET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/projects/tutorials/# .NET/Day2/Exercise.NET/Exercise.NET/Exercise.NET.csproj",
+        "projectUniqueName": "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Exercise.NET.csproj",
         "projectName": "Exercise.NET",
-        "projectPath": "/Users/mac/projects/tutorials/# .NET/Day2/Exercise.NET/Exercise.NET/Exercise.NET.csproj",
+        "projectPath": "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Exercise.NET.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/projects/tutorials/# .NET/Day2/Exercise.NET/Exercise.NET/obj/",
+        "outputPath": "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mac/.nuget/NuGet/NuGet.Config"

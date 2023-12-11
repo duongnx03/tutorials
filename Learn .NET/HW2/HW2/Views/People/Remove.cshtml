@@ -1,0 +1,41 @@
+﻿@model IEnumerable<HW2.Models.TbPerson>
+
+@{
+    ViewData["Title"] = "Remove";
+}
+
+<h1>Remove</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var no = 1;
+        }
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    @no @{no++;}
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.Username">Remove</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

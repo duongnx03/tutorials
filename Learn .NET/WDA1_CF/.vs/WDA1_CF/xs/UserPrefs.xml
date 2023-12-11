@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{CFF79F22-542B-40D2-BF9A-2CB25C7D379E}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.WDA1__CF PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WDA1_CF/Areas/Admin/Views/Admin/Create.cshtml">
+    <Files>
+      <File FileName="WDA1_CF/Models/DatabaseContext.cs" Line="9" Column="73" />
+      <File FileName="WDA1_CF/Program.cs" Line="35" Column="1" />
+      <File FileName="WDA1_CF/appsettings.json" />
+      <File FileName="WDA1_CF/Views/Account/Index.cshtml" Line="1" Column="1" />
+      <File FileName="WDA1_CF/Areas/Admin/Controllers/AdminController.cs" Line="33" Column="26" />
+      <File FileName="WDA1_CF/Areas/Admin/Views/Admin/Create.cshtml" Line="41" Column="1" />
+      <File FileName="WDA1_CF/Views/Account/Details.cshtml" Line="1" Column="1" />
+      <File FileName="WDA1_CF/Controllers/AccountController.cs" Line="39" Column="46" />
+      <File FileName="WDA1_CF/Areas/Admin/Views/Admin/Index.cshtml" Line="9" Column="19" />
+      <File FileName="WDA1_CF/Views/Account/Create.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WDA1_CF" expanded="True">
+            <Node name="WDA1_CF">
+              <Node name="Areas">
+                <Node name="Admin">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Views">
+                    <Node name="Admin" expanded="True">
+                      <Node name="Create.cshtml" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

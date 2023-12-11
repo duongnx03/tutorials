@@ -1,0 +1,56 @@
+@model IEnumerable<Homework2.Models.TbPerson>
+
+@{
+    ViewData["Title"] = "Show";
+}
+
+<h1>Hello @Context.Session.GetString("username")</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                No
+            </th>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Balance
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var no = 1;
+            var id = 1000;
+        }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @no
+                </td>
+                <td>
+                    @id
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Username)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Balance)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Username">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Username">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Username">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Menu">Click here to return Menu page</a>

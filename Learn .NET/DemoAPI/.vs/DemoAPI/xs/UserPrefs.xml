@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{0365B4A7-C1EB-48AC-8294-80BDB3456EDB}" ItemName="Client" ConfigurationId="https" />
+        <StartupItem ItemId="{5C90FEC4-720F-4D7B-8436-60EC17C6DCAB}" ItemName="DemoAPI" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Client/Models/ProductDbContext.cs">
+    <Files>
+      <File FileName="DemoAPI/Models/Product.cs" />
+      <File FileName="DemoAPI/appsettings.json" />
+      <File FileName="DemoAPI/Controllers/ProductController.cs" />
+      <File FileName="Client/Models/Product.cs" />
+      <File FileName="Client/Controllers/ProductController.cs" />
+      <File FileName="Client/Views/Product/Index.cshtml" />
+      <File FileName="Client/Models/ProductDbContext.cs" Line="18" Column="1" />
+      <File FileName="Client/Program.cs" />
+      <File FileName="Client/Views/Product/Create.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DemoAPI" expanded="True">
+            <Node name="Client" expanded="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="DemoAPI" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Product.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.DemoAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

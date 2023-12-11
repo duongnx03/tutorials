@@ -1,0 +1,14 @@
+﻿@using System.Security.Claims
+
+@{
+    var user = User.FindFirst(ClaimTypes.Name);
+}
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Welcome @user.Value</h1>
+<h4><a asp-controller="Admin" asp-action="Index">Go to Admin</a></h4>
+<h4><a asp-controller="Account" asp-action="Index">Logout</a></h4>
+

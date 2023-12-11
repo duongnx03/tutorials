@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Exercise.NET
 build_property.RootNamespace = Exercise.NET
-build_property.ProjectDir = /Users/mac/projects/tutorials/# .NET/Day2/Exercise.NET/Exercise.NET/
+build_property.ProjectDir = /Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/mac/projects/tutorials/# .NET/Day2/Exercise.NET/Exercise.NET
+build_property.MSBuildProjectDirectory = /Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/mac/projects/tutorials/\# .NET/Day2/Exercise.NET/Exercise.NET/Views/Customer/Create.cshtml]
+[/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Views/Customer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/projects/tutorials/\# .NET/Day2/Exercise.NET/Exercise.NET/Views/Customer/Edit.cshtml]
+[/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Views/Customer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/projects/tutorials/\# .NET/Day2/Exercise.NET/Exercise.NET/Views/Customer/Index.cshtml]
+[/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/projects/tutorials/\# .NET/Day2/Exercise.NET/Exercise.NET/Views/Home/Index.cshtml]
+[/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/projects/tutorials/\# .NET/Day2/Exercise.NET/Exercise.NET/Views/Home/Privacy.cshtml]
+[/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/projects/tutorials/\# .NET/Day2/Exercise.NET/Exercise.NET/Views/Index.cshtml]
+[/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Views/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/projects/tutorials/\# .NET/Day2/Exercise.NET/Exercise.NET/Views/Shared/Error.cshtml]
+[/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/projects/tutorials/\# .NET/Day2/Exercise.NET/Exercise.NET/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/projects/tutorials/\# .NET/Day2/Exercise.NET/Exercise.NET/Views/_ViewImports.cshtml]
+[/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/projects/tutorials/\# .NET/Day2/Exercise.NET/Exercise.NET/Views/_ViewStart.cshtml]
+[/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mac/projects/tutorials/\# .NET/Day2/Exercise.NET/Exercise.NET/Views/Shared/_Layout.cshtml]
+[/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ar9juxx5lf

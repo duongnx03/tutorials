@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{54FD2B7C-9F42-4D3C-AFE2-CE366312CA5F}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Demo_DTO/Controllers/ProductController.cs">
+    <Files>
+      <File FileName="Demo_DTO/Models/AutoMapperProfile.cs" Line="11" Column="37" />
+      <File FileName="Demo_DTO/appsettings.json" Line="3" Column="46" />
+      <File FileName="Demo_DTO/Program.cs" Line="9" Column="36" />
+      <File FileName="Demo_DTO/Controllers/ProductController.cs" Line="30" Column="1" />
+      <File FileName="Demo_DTO/Models/ProductContext.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Day7" expanded="True">
+            <Node name="Demo_DTO" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Demo__DTO PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.DemoFluentAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
