@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{FECA9E2E-BFEF-4B01-9D65-08C0FD1F9A76}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WDA1/Views/Account/Details.cshtml">
+    <Files>
+      <File FileName="WDA1/Program.cs" />
+      <File FileName="WDA1/appsettings.json" Line="13" Column="1" />
+      <File FileName="WDA1/Views/Account/Index.cshtml" Line="1" Column="1" />
+      <File FileName="WDA1/Views/Account/Details.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WDA1" expanded="True">
+            <Node name="WDA1" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True">
+                  <Node name="Details.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WDA1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,90 @@
+﻿@model DemoQRCode.Models.QRCodeModel;
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Index</h1>
+
+<form asp-action="Index">
+    <div>
+        <label>Select QRCode type</label>
+        <select asp-for="QRCodeType" id="QRCodeType" onchange="QRCodeTypeChange()">
+            <option value="1">SMS</option>
+            <option value="2">Email</option>
+            <option value="3">Facebook</option>
+            <option value="4">Wifi</option>
+        </select>
+    </div>
+
+    <div id="Div1" class="hideDiv">
+        <div>
+            <label>Enter phone number: </label>
+            <input type="text" asp-for="SMSPhoneNumber" />
+        </div>
+
+        <div>
+            <label>Enter Message: </label>
+            <input type="text" asp-for="SMSBody" />
+        </div>
+    </div>
+
+    <div id="Div2" class="hideDiv">
+        <div>
+            <label>Enter Facebook Url: </label>
+            <input type="text" asp-for="FacebookAddressUrl" />
+        </div>
+    </div>
+
+    <div id="Div3" class="hideDiv">
+        <div>
+            <label>Enter Email: </label>
+            <input type="text" asp-for="ReceiveEmailAddress" />
+        </div>
+
+        <div>
+            <label>Enter Subject: </label>
+            <input type="text" asp-for="EmailSubject" />
+        </div>
+        <div>
+            <label>Enter Message: </label>
+            <input type="text" asp-for="EmailMessage" />
+        </div>
+    </div>
+
+    <div id="Div4" class="hideDiv">
+        <div>
+            <label>Enter Wifi Name: </label>
+            <input type="text" asp-for="WifiName" />
+        </div>
+
+        <div>
+            <label>Enter Password: </label>
+            <input type="text" asp-for="WifiPassword" />
+        </div>
+    </div>
+    <div>
+        <button type="submit">Generate</button>
+    </div>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.QRImageUrl))
+{
+        <div>
+            <img src="@Model.QRImageUrl" width="250" height="250" />
+        </div>
+}
+
+@section Scripts{
+<script>
+    $(document).ready(function () {
+        $(".hideDiv").hide();
+        $("#QRCodeType").trigger("change");
+    });
+    function QRCodeTypeChange() {
+        let qrCodeType = $("#QRCodeType").val();
+        $(".hideDiv").hide();
+        $("#Div" + qrCodeType).show();
+    }
+</script>
+}

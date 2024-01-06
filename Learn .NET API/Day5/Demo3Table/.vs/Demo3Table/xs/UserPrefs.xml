@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{C7FC9DB3-F1B6-4C0E-99CC-F14AC9529B11}" ItemName="Client" ConfigurationId="https" />
+        <StartupItem ItemId="{333348CB-D9E1-499C-9706-FD00A1AE4937}" ItemName="Demo3Table" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Demo3Table/Repository/CartRepo.cs">
+    <Files>
+      <File FileName="Demo3Table/IRepository/ICartRepo.cs" />
+      <File FileName="Demo3Table/Repository/CartRepo.cs" Line="22" Column="1" />
+      <File FileName="Demo3Table/Controllers/ProductController.cs" />
+      <File FileName="Client/Controllers/ProductController.cs" />
+      <File FileName="Client/Views/Product/ShowCart.cshtml" />
+      <File FileName="Client/Views/Product/Index.cshtml" />
+      <File FileName="Demo3Table/Program.cs" />
+      <File FileName="Demo3Table/Data/DatabaseContext.cs" />
+      <File FileName="Demo3Table/Repository/ProductRepo.cs" />
+      <File FileName="Demo3Table/Models/Cart.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Demo3Table" expanded="True">
+            <Node name="Demo3Table" expanded="True">
+              <Node name="IRepository" expanded="True" />
+              <Node name="Repository" expanded="True">
+                <Node name="CartRepo.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Demo3Table PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

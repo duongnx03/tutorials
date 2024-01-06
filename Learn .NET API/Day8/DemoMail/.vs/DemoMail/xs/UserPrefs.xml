@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{F56818BF-A0BC-4780-9501-C8A1444F1F05}|https">
+  <MonoDevelop.Ide.ItemProperties.DemoMail PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoMail/Models/MailRequest.cs">
+    <Files>
+      <File FileName="DemoMail/Models/MailRequest.cs" Line="9" Column="26" />
+      <File FileName="DemoMail/Services/IMailService.cs" />
+      <File FileName="DemoMail/Services/MailService.cs" />
+      <File FileName="DemoMail/Settings/MailSetting.cs" />
+      <File FileName="DemoMail/appsettings.json" Line="5" Column="37" />
+      <File FileName="DemoMail/Program.cs" />
+      <File FileName="DemoMail/Controllers/MailController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DemoMail" expanded="True">
+            <Node name="DemoMail" expanded="True" selected="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

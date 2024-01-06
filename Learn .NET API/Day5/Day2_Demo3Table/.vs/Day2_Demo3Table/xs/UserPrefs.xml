@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Day2__Demo3Table PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{CD152027-C07C-4EE9-8DD3-1AC9601F939F}" ItemName="Client" ConfigurationId="https" />
+        <StartupItem ItemId="{764CA11A-55EE-4125-8F22-191DB8810D05}" ItemName="Day2_Demo3Table" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Client/Views/Order/Details.cshtml">
+    <Files>
+      <File FileName="Day2_Demo3Table/IRepository/IOrderRepo.cs" />
+      <File FileName="Day2_Demo3Table/Repository/OrderRepo.cs" />
+      <File FileName="Day2_Demo3Table/Repository/CartRepo.cs" />
+      <File FileName="Day2_Demo3Table/Controllers/OrderController.cs" />
+      <File FileName="Client/Controllers/OrderController.cs" />
+      <File FileName="Client/Controllers/ProductController.cs" />
+      <File FileName="Client/Views/Order/Index.cshtml" />
+      <File FileName="Client/Views/Product/ShowCart.cshtml" />
+      <File FileName="Client/Views/Order/ListOrder.cshtml" />
+      <File FileName="Client/Views/Order/Details.cshtml" Line="17" Column="18" />
+      <File FileName="Day2_Demo3Table/Models/Order.cs" />
+      <File FileName="Day2_Demo3Table/Program.cs" />
+      <File FileName="Day2_Demo3Table/Migrations/20231228090054_InitialCreate.cs" />
+      <File FileName="Day2_Demo3Table/Migrations/DatabaseContextModelSnapshot.cs" />
+      <File FileName="Day2_Demo3Table/appsettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Day2_Demo3Table" expanded="True">
+            <Node name="Client" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Order" expanded="True">
+                  <Node name="Details.cshtml" selected="True" />
+                </Node>
+                <Node name="Product" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Day2_Demo3Table" expanded="True">
+              <Node name="IRepository" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

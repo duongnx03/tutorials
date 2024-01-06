@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ryWRAOgvk8+yXN9c4Rc/YvxEFFNC0jaOsoOPBLinGegu9wjNddANo08FEPQsL1zRgfJpU6I9KF4zokxdK6DdNw==",
+  "dgSpecHash": "aIG6ryymtNVRku2fBXdwKYK8SCrfwAZIXj9SgJ8Szj/IB3fKhN5vo5lEwtzhNJlcvUjp39N5vNZ+tKyvcNCYRw==",
   "success": true,
-  "projectFilePath": "/Users/mac/projects/tutorials/Learn .NET/WDA1 (1)/WDA1/WDA1.csproj",
+  "projectFilePath": "/Users/mac/projects/tutorials/Learn .NET/WDA1 /WDA1/WDA1.csproj",
   "expectedPackageFiles": [
     "/Users/mac/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

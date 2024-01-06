@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "R+UyNGJTdz9hTO6g2J1lJ+pcSiJf+DgherC59um/rVjumXv6CftSjJE0eSsknR0PnUPwI7YmItMLYpDTvH6Xjw==",
+  "success": true,
+  "projectFilePath": "/Users/mac/projects/tutorials/Learn .NET API/EX_Day9/Pretest2/Client/Client.csproj",
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/mac/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

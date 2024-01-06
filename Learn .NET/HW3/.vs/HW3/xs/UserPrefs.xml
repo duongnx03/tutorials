@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{1E00436B-809C-43BD-BE2D-77D88F23396D}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="HW3/Views/Stock/Listitem.cshtml">
+    <Files>
+      <File FileName="HW3/Program.cs" />
+      <File FileName="HW3/appsettings.json" />
+      <File FileName="HW3/Controllers/StockController.cs" />
+      <File FileName="HW3/Models/Account.cs" />
+      <File FileName="HW3/Models/Item.cs" />
+      <File FileName="HW3/Models/ModelView.cs" />
+      <File FileName="HW3/Models/StockContext.cs" />
+      <File FileName="HW3/Migrations/StockContextModelSnapshot.cs" />
+      <File FileName="HW3/Migrations/20231130092742_InitialCreate.cs" />
+      <File FileName="HW3/Models/ErrorViewModel.cs" />
+      <File FileName="HW3/Views/Stock/Listitem.cshtml" Line="1" Column="1" />
+      <File FileName="HW3/Views/Stock/Index.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HW3">
+            <Node name="HW3" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Stock" expanded="True">
+                  <Node name="Listitem.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.HW3 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

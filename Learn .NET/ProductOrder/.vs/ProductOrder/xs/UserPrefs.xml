@@ -1,29 +1,29 @@
 ﻿<Properties StartupConfiguration="{529CFE26-A77B-4048-82EB-4079ADD27B3A}|https">
-  <MonoDevelop.Ide.ItemProperties.ProductOrder PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ProductOrder PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ProductOrder/Models/Order.cs">
     <Files>
-      <File FileName="ProductOrder/Program.cs" Line="9" Column="1" />
+      <File FileName="ProductOrder/Program.cs" />
       <File FileName="ProductOrder/Models/Order.cs" Line="21" Column="1" />
-      <File FileName="ProductOrder/Models/OrderDetail.cs" Line="11" Column="36" />
+      <File FileName="ProductOrder/Models/OrderDetail.cs" />
       <File FileName="ProductOrder/Models/OrderDbContext.cs" />
       <File FileName="ProductOrder/appsettings.json" />
-      <File FileName="ProductOrder/Controllers/OrderController.cs" Line="79" Column="45" />
+      <File FileName="ProductOrder/Controllers/OrderController.cs" />
       <File FileName="ProductOrder/Views/Order/Create.cshtml" />
       <File FileName="ProductOrder/Views/Order/Index.cshtml" />
-      <File FileName="ProductOrder/Views/Order/Details.cshtml" Line="42" Column="67" />
+      <File FileName="ProductOrder/Views/Order/Details.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ProductOrder" expanded="True">
-            <Node name="ProductOrder">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Order.cs" selected="True" />
-              </Node>
+          <Node name="ProductOrder">
+            <Node name="ProductOrder" expanded="True">
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Order" expanded="True" />
               </Node>
@@ -33,7 +33,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

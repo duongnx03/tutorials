@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.ItemProperties.PretestEAT PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PretestEAT/Controllers/EmployeeController.cs">
+    <Files>
+      <File FileName="PretestEAT/Models/Employee.cs" />
+      <File FileName="PretestEAT/Program.cs" />
+      <File FileName="PretestEAT/Models/DatabaseContext.cs" />
+      <File FileName="PretestEAT/appsettings.json" />
+      <File FileName="PretestEAT/Controllers/EmployeeController.cs" Line="48" Column="10" />
+      <File FileName="Client/Models/Employee.cs" />
+      <File FileName="Client/Controllers/EmployeeController.cs" Line="55" Column="18" />
+      <File FileName="Client/Views/Employee/Index.cshtml" />
+      <File FileName="Client/Views/Employee/Search.cshtml" />
+      <File FileName="Client/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PretestEAT" expanded="True">
+            <Node name="Client" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="PretestEAT" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="EmployeeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{8ED78CB2-BC95-46E2-9DD7-2957AB8B7AC1}" ItemName="Client" ConfigurationId="https" />
+        <StartupItem ItemId="{79C8D801-ECFC-4364-B855-F91DD821DEE1}" ItemName="PretestEAT" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>

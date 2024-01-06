@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{BA1B8FDE-2AE2-4D72-993A-53B94199BB1C}" ItemName="Client" ConfigurationId="https" />
+        <StartupItem ItemId="{6CB06936-C451-4860-8818-F5D18AF3CBF4}" ItemName="DemoUpload" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.DemoUpload PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Client/Views/Image/Index.cshtml">
+    <Files>
+      <File FileName="DemoUpload/Controllers/UploadController.cs" Line="18" Column="28" />
+      <File FileName="Client/Program.cs" Line="27" Column="32" />
+      <File FileName="Client/Controllers/ImageController.cs" Line="50" Column="1" />
+      <File FileName="Client/Views/Image/Index.cshtml" Line="1" Column="1" />
+      <File FileName="DemoUpload/Program.cs" Line="1" Column="1" />
+      <File FileName="Client/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Client/appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DemoUpload" expanded="True">
+            <Node name="Client">
+              <Node name="Views">
+                <Node name="Image">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="DemoUpload">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Images" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

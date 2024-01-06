@@ -32,6 +32,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/mac/projects/tutorials/Learn .NET/Homework3DF/Homework3DF/Views/Stock/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RvY2svSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mac/projects/tutorials/Learn .NET/Homework3DF/Homework3DF/Views/Stock/Listitem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RvY2svTGlzdGl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mac/projects/tutorials/Learn .NET/Homework3DF/Homework3DF/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

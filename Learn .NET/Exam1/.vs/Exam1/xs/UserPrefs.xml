@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{6FDB041D-CD14-48A3-9CDF-BCBD2B7CAB02}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Exam1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exam1/Controllers/BookController.cs">
+    <Files>
+      <File FileName="Exam1/Models/Book.cs" Line="3" Column="1" />
+      <File FileName="Exam1/Models/BookDetails.cs" Line="6" Column="21" />
+      <File FileName="Exam1/Models/BookDbContext.cs" Line="28" Column="39" />
+      <File FileName="Exam1/Controllers/BookController.cs" Line="79" Column="49" />
+      <File FileName="Exam1/Views/Book/CreateBookDetail.cshtml" Line="11" Column="18" />
+      <File FileName="Exam1/Views/Book/Create.cshtml" Line="12" Column="27" />
+      <File FileName="Exam1/Views/Book/Details.cshtml" Line="42" Column="57" />
+      <File FileName="Exam1/Views/Book/Index.cshtml" Line="30" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Exam1" expanded="True">
+            <Node name="Exam1">
+              <Node name="Controllers">
+                <Node name="BookController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

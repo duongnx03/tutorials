@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{9C813FEA-5BF7-4165-BF88-F902A45CC7F5}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Demo_ADo/Controllers/BookController.cs">
+    <Files>
+      <File FileName="Demo_ADo/Models/Book.cs" Line="10" Column="33" />
+      <File FileName="Demo_ADo/Controllers/BookController.cs" Line="37" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Demo_ADo" expanded="True">
+            <Node name="Demo_ADo">
+              <Node name="Controllers">
+                <Node name="BookController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Demo__ADo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

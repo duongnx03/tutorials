@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.ItemProperties.Exercise PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{CBF31F83-31F7-4978-9FF3-806ADA92C7C5}" ItemName="Client" ConfigurationId="https" />
+        <StartupItem ItemId="{308812D9-135A-4F96-922B-639405BADEC8}" ItemName="Exercise" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercise/Controllers/UserController.cs">
+    <Files>
+      <File FileName="Exercise/Models/User.cs" Line="6" Column="19" />
+      <File FileName="Exercise/Models/UserDbContext.cs" />
+      <File FileName="Exercise/Program.cs" />
+      <File FileName="Client/Models/User.cs" Line="12" Column="37" />
+      <File FileName="Client/Properties/launchSettings.json" Line="14" Column="47" />
+      <File FileName="Client/Program.cs" Line="27" Column="1" />
+      <File FileName="Client/Views/User/Index.cshtml" Line="56" Column="1" />
+      <File FileName="Client/Controllers/UserController.cs" Line="68" Column="41" />
+      <File FileName="Client/Views/User/Create.cshtml" Line="48" Column="2" />
+      <File FileName="Exercise/Controllers/UserController.cs" Line="67" Column="31" />
+      <File FileName="Client/Views/User/Edit.cshtml" Line="48" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Exercise" expanded="True">
+            <Node name="Client">
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="Exercise">
+              <Node name="Controllers" expanded="True">
+                <Node name="UserController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

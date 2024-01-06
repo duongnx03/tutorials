@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{2FA2F847-0800-4845-A5F6-13431655A231}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExaminationWDA/Views/Company/Create.cshtml">
+    <Files>
+      <File FileName="ExaminationWDA/appsettings.json" Line="1" Column="1" />
+      <File FileName="ExaminationWDA/Program.cs" Line="32" Column="1" />
+      <File FileName="ExaminationWDA/Controllers/CompanyController.cs" Line="25" Column="59" />
+      <File FileName="ExaminationWDA/Models/TbEmployee.cs" />
+      <File FileName="ExaminationWDA/Views/Company/Index.cshtml" Line="59" Column="74" />
+      <File FileName="ExaminationWDA/Views/Company/Create.cshtml" Line="1" Column="1" />
+      <File FileName="ExaminationWDA/Views/Company/Update.cshtml" Line="1" Column="1" />
+      <File FileName="ExaminationWDA/Models/CompanyDbContext.cs" />
+      <File FileName="ExaminationWDA/Properties/launchSettings.json" Line="14" Column="47" />
+      <File FileName="ExaminationWDA/Controllers/HomeController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExaminationWDA" expanded="True">
+            <Node name="ExaminationWDA">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Company" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ExaminationWDA PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

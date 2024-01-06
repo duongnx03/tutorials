@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "j2bNhKmU6FEhogxMtt7BytRlEtmBLBtNLtrMdvm0/lOaH3pdguDhs8MkIygul6KvNNKsaAy1wKrtm3plfr/xEw==",
+  "success": true,
+  "projectFilePath": "/Users/mac/projects/tutorials/Learn .NET API/Day4/Demo_JWT2/Client/Client.csproj",
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/newtonsoft.json/12.0.1/newtonsoft.json.12.0.1.nupkg.sha512",
+    "/Users/mac/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

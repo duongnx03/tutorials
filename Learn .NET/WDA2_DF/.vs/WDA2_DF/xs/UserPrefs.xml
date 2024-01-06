@@ -1,38 +1,38 @@
 ﻿<Properties StartupConfiguration="{D5AE1BF2-359A-42DA-9569-44C24465FD7E}|https">
   <MonoDevelop.Ide.ItemProperties.WDA2__DF PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WDA2_DF/Controllers/Position.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WDA2_DF/Views/Position/Index.cshtml">
     <Files>
-      <File FileName="WDA2_DF/Program.cs" Line="9" Column="48" />
-      <File FileName="WDA2_DF/appsettings.json" Line="13" Column="1" />
-      <File FileName="WDA2_DF/Controllers/EmployeeController.cs" Line="57" Column="29" />
-      <File FileName="WDA2_DF/Views/Employee/Edit.cshtml" Line="1" Column="33" />
-      <File FileName="WDA2_DF/Views/Employee/Create.cshtml" Line="1" Column="33" />
+      <File FileName="WDA2_DF/Program.cs" />
+      <File FileName="WDA2_DF/appsettings.json" />
+      <File FileName="WDA2_DF/Controllers/EmployeeController.cs" />
       <File FileName="WDA2_DF/Models/Employee.cs" Line="1" Column="1" />
-      <File FileName="WDA2_DF/Models/Position.cs" Line="1" Column="1" />
-      <File FileName="WDA2_DF/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="WDA2_DF/Views/Employee/Index.cshtml" Line="1" Column="1" />
-      <File FileName="WDA2_DF/Controllers/Position.cs" Line="1" Column="1" />
+      <File FileName="WDA2_DF/Models/Position.cs" />
+      <File FileName="WDA2_DF/Controllers/HomeController.cs" />
+      <File FileName="WDA2_DF/Views/Employee/Index.cshtml" />
+      <File FileName="WDA2_DF/Controllers/Position.cs" />
+      <File FileName="WDA2_DF/Views/Position/Index.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WDA2_DF" expanded="True">
-            <Node name="WDA2_DF">
-              <Node name="Controllers" expanded="True">
-                <Node name="Position.cs" selected="True" />
-              </Node>
+            <Node name="WDA2_DF" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Position" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

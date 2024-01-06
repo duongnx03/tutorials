@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{AE7BB0C9-0B4E-4CA3-B53F-0F544E9E23F5}" ItemName="Client" ConfigurationId="https" />
+        <StartupItem ItemId="{0601EBDD-3965-4B35-B28B-B262822DF8C1}" ItemName="Day8_DemoMail" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Day8_DemoMail/appsettings.json">
+    <Files>
+      <File FileName="Client/Models/MailRequest.cs" Line="1" Column="17" />
+      <File FileName="Client/Controllers/MailController.cs" Line="31" Column="89" />
+      <File FileName="Client/Views/Mail/Create.cshtml" Line="32" Column="75" />
+      <File FileName="Client/Program.cs" Line="25" Column="31" />
+      <File FileName="Day8_DemoMail/appsettings.json" Line="5" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Day8_DemoMail" expanded="True">
+            <Node name="Client">
+              <Node name="Views">
+                <Node name="Mail" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Day8_DemoMail">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Day8__DemoMail PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

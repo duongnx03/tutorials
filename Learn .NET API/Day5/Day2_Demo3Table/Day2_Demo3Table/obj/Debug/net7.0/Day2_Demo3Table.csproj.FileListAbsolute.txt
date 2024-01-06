@@ -1,0 +1,152 @@
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/appsettings.Development.json
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/appsettings.json
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Day2_Demo3Table.exe
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Day2_Demo3Table.deps.json
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Day2_Demo3Table.runtimeconfig.json
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Day2_Demo3Table.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Day2_Demo3Table.pdb
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Azure.Core.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Azure.Identity.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Humanizer.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.OpenApi.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Mono.TextTemplating.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.CodeDom.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Drawing.Common.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Memory.Data.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Runtime.Caching.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Security.Permissions.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Windows.Extensions.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.csproj.AssemblyReference.cache
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.GeneratedMSBuildEditorConfig.editorconfig
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.AssemblyInfoInputs.cache
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.AssemblyInfo.cs
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.csproj.CoreCompileInputs.cache
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.MvcApplicationPartsAssemblyInfo.cs
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.MvcApplicationPartsAssemblyInfo.cache
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets/msbuild.Day2_Demo3Table.Microsoft.AspNetCore.StaticWebAssets.props
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets/msbuild.build.Day2_Demo3Table.props
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Day2_Demo3Table.props
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Day2_Demo3Table.props
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets.pack.json
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets.build.json
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets.development.json
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/scopedcss/bundle/Day2_Demo3Table.styles.css
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.csproj.CopyComplete
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/refint/Day2_Demo3Table.dll
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.pdb
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.genruntimeconfig.cache
+D:/Teaching/Aptech/7023/Term3/demo/T1.2210.A1/demo DMAWS/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/ref/Day2_Demo3Table.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/appsettings.Development.json
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/appsettings.json
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Day2_Demo3Table
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Day2_Demo3Table.deps.json
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Day2_Demo3Table.runtimeconfig.json
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Day2_Demo3Table.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Day2_Demo3Table.pdb
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Azure.Core.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Azure.Identity.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Humanizer.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Identity.Client.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.CodeDom.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Memory.Data.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Runtime.Caching.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.csproj.AssemblyReference.cache
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.AssemblyInfoInputs.cache
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.AssemblyInfo.cs
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.csproj.CoreCompileInputs.cache
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.MvcApplicationPartsAssemblyInfo.cs
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.MvcApplicationPartsAssemblyInfo.cache
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets/msbuild.Day2_Demo3Table.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets/msbuild.build.Day2_Demo3Table.props
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Day2_Demo3Table.props
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Day2_Demo3Table.props
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets.build.json
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/staticwebassets.development.json
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/scopedcss/bundle/Day2_Demo3Table.styles.css
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.csproj.CopyComplete
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/refint/Day2_Demo3Table.dll
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.pdb
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/Day2_Demo3Table.genruntimeconfig.cache
+/Users/mac/projects/tutorials/Learn .NET API/Day5/Day2_Demo3Table/Day2_Demo3Table/obj/Debug/net7.0/ref/Day2_Demo3Table.dll

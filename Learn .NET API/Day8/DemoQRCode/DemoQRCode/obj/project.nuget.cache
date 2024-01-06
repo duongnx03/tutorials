@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EXwLOBlg4NNnYAK77KLkJkvjeBcz7wQQU4Falb0hVl0YhxQDh61zOhXePYpIijuUZJWOQuuMbquk+ztl74vCPg==",
+  "success": true,
+  "projectFilePath": "/Users/mac/projects/tutorials/Learn .NET API/Day8/DemoQRCode/DemoQRCode/DemoQRCode.csproj",
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/qrcoder/1.4.3/qrcoder.1.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}

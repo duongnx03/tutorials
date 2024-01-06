@@ -1,21 +1,25 @@
 ﻿<Properties StartupConfiguration="{57F09AF5-14C5-4503-9905-9D33C560415C}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WDA4 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="WDA4/Controllers/HotelController.cs">
     <Files>
-      <File FileName="WDA4/appsettings.json" Line="3" Column="47" />
-      <File FileName="WDA4/Program.cs" Line="23" Column="18" />
-      <File FileName="WDA4/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="WDA4/appsettings.json" />
+      <File FileName="WDA4/Program.cs" />
+      <File FileName="WDA4/Controllers/HomeController.cs" />
       <File FileName="WDA4/Controllers/HotelController.cs" Line="51" Column="10" />
-      <File FileName="WDA4/Views/Hotel/Index.cshtml" Line="1" Column="1" />
-      <File FileName="WDA4/Views/Hotel/Login.cshtml" Line="25" Column="8" />
+      <File FileName="WDA4/Views/Hotel/Index.cshtml" />
+      <File FileName="WDA4/Views/Hotel/Login.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WDA4" expanded="True">
-            <Node name="WDA4">
+            <Node name="WDA4" expanded="True">
               <Node name="Controllers" expanded="True">
                 <Node name="HotelController.cs" selected="True" />
               </Node>
@@ -25,8 +29,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.WDA4 PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
