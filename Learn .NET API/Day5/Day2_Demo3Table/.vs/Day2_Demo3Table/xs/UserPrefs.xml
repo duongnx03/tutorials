@@ -1,10 +1,6 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Day2__Demo3Table PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -13,43 +9,50 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Client/Views/Order/Details.cshtml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Client/Controllers/ProductController.cs">
     <Files>
       <File FileName="Day2_Demo3Table/IRepository/IOrderRepo.cs" />
       <File FileName="Day2_Demo3Table/Repository/OrderRepo.cs" />
       <File FileName="Day2_Demo3Table/Repository/CartRepo.cs" />
       <File FileName="Day2_Demo3Table/Controllers/OrderController.cs" />
       <File FileName="Client/Controllers/OrderController.cs" />
-      <File FileName="Client/Controllers/ProductController.cs" />
+      <File FileName="Client/Controllers/ProductController.cs" Line="1" Column="1" />
       <File FileName="Client/Views/Order/Index.cshtml" />
       <File FileName="Client/Views/Product/ShowCart.cshtml" />
       <File FileName="Client/Views/Order/ListOrder.cshtml" />
       <File FileName="Client/Views/Order/Details.cshtml" Line="17" Column="18" />
       <File FileName="Day2_Demo3Table/Models/Order.cs" />
       <File FileName="Day2_Demo3Table/Program.cs" />
-      <File FileName="Day2_Demo3Table/Migrations/20231228090054_InitialCreate.cs" />
       <File FileName="Day2_Demo3Table/Migrations/DatabaseContextModelSnapshot.cs" />
       <File FileName="Day2_Demo3Table/appsettings.json" />
+      <File FileName="Day2_Demo3Table/Data/DatabaseContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Day2_Demo3Table" expanded="True">
             <Node name="Client" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ProductController.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="Order" expanded="True">
-                  <Node name="Details.cshtml" selected="True" />
-                </Node>
+                <Node name="Order" expanded="True" />
                 <Node name="Product" expanded="True" />
               </Node>
             </Node>
             <Node name="Day2_Demo3Table" expanded="True">
+              <Node name="Data" expanded="True" />
               <Node name="IRepository" expanded="True" />
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

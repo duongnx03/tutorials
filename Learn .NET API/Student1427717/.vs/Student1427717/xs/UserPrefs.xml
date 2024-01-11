@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{8D61B4CE-C378-4373-8139-CDCB1809549A}" ItemName="Client" ConfigurationId="https" />
+        <StartupItem ItemId="{B6C2D816-DFC7-4C57-BA4B-76E1200231EB}" ItemName="Student1427717" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Client/Models/Employee.cs">
+    <Files>
+      <File FileName="Student1427717/Models/DatabaseContext.cs" Line="20" Column="112" />
+      <File FileName="Student1427717/Controllers/EmployeeController.cs" Line="43" Column="10" />
+      <File FileName="Client/Views/Employee/Login.cshtml" Line="2" Column="31" />
+      <File FileName="Client/Controllers/EmployeeController.cs" Line="20" Column="1" />
+      <File FileName="Client/Program.cs" Line="25" Column="50" />
+      <File FileName="Client/Views/Employee/Index.cshtml" Line="5" Column="2" />
+      <File FileName="Client/Views/Employee/Update.cshtml" Line="1" Column="30" />
+      <File FileName="Client/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Student1427717/Models/Employee.cs" Line="10" Column="3" />
+      <File FileName="Client/Models/Employee.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Student1427717" expanded="True">
+            <Node name="Client">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Employee.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Employee" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Student1427717">
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Student1427717 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

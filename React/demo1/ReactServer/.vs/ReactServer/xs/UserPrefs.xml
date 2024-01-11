@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{3D0E3707-F1E4-476E-B419-8B6124E19FF1}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ReactServer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactServer/Properties/launchSettings.json">
+    <Files>
+      <File FileName="ReactServer/Models/Product.cs" />
+      <File FileName="ReactServer/appsettings.json" />
+      <File FileName="ReactServer/Program.cs" />
+      <File FileName="ReactServer/IRepository/IProductRepository.cs" />
+      <File FileName="ReactServer/Services/ProductService.cs" />
+      <File FileName="ReactServer/Controllers/ProductController.cs" Line="25" Column="54" />
+      <File FileName="ReactServer/Properties/launchSettings.json" Line="26" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReactServer" expanded="True">
+            <Node name="ReactServer" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="IRepository" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

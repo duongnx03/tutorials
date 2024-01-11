@@ -1,5 +1,4 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MonoDevelop.Ide.ItemProperties.Exercise PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
@@ -9,31 +8,39 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Exercise/Controllers/UserController.cs">
+  <MonoDevelop.Ide.ItemProperties.Exercise PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Client/Controllers/UserController.cs">
     <Files>
-      <File FileName="Exercise/Models/User.cs" Line="6" Column="19" />
+      <File FileName="Exercise/Models/User.cs" Line="1" Column="1" />
       <File FileName="Exercise/Models/UserDbContext.cs" />
       <File FileName="Exercise/Program.cs" />
-      <File FileName="Client/Models/User.cs" Line="12" Column="37" />
-      <File FileName="Client/Properties/launchSettings.json" Line="14" Column="47" />
-      <File FileName="Client/Program.cs" Line="27" Column="1" />
-      <File FileName="Client/Views/User/Index.cshtml" Line="56" Column="1" />
-      <File FileName="Client/Controllers/UserController.cs" Line="68" Column="41" />
-      <File FileName="Client/Views/User/Create.cshtml" Line="48" Column="2" />
+      <File FileName="Client/Models/User.cs" />
+      <File FileName="Client/Properties/launchSettings.json" />
+      <File FileName="Client/Program.cs" />
+      <File FileName="Client/Views/User/Index.cshtml" Line="48" Column="89" />
+      <File FileName="Client/Controllers/UserController.cs" Line="1" Column="1" />
+      <File FileName="Client/Views/User/Create.cshtml" />
       <File FileName="Exercise/Controllers/UserController.cs" Line="67" Column="31" />
-      <File FileName="Client/Views/User/Edit.cshtml" Line="48" Column="2" />
+      <File FileName="Client/Views/User/Edit.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Exercise" expanded="True">
-            <Node name="Client">
-              <Node name="Properties" expanded="True" />
-            </Node>
-            <Node name="Exercise">
+            <Node name="Client" expanded="True">
               <Node name="Controllers" expanded="True">
                 <Node name="UserController.cs" selected="True" />
               </Node>
+              <Node name="Views" expanded="True">
+                <Node name="User" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Exercise" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
             </Node>
@@ -43,8 +50,4 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
