@@ -1,4 +1,4 @@
-﻿using LastPretest.Models;
+using LastPretest.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 

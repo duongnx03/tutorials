@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace DemoJWT.Models
 {
 	public class UserLogin

@@ -1,4 +1,4 @@
-﻿using Day8_DemoMail.Models;
+using Day8_DemoMail.Models;
 using Day8_DemoMail.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using DemoMail.Models;
 
 namespace DemoMail.Services

@@ -13,12 +13,28 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/mac/projects/tutorials/Learn .NET/ExaminationWDA/ExaminationWDA/wwwroot/images/anime-638409924192670900.jpeg",
+      "PackagePath": "staticwebassets/images/anime-638409924192670900.jpeg"
+    },
+    {
+      "Id": "/Users/mac/projects/tutorials/Learn .NET/ExaminationWDA/ExaminationWDA/wwwroot/images/cat-638409923869067100.jpeg",
+      "PackagePath": "staticwebassets/images/cat-638409923869067100.jpeg"
+    },
+    {
+      "Id": "/Users/mac/projects/tutorials/Learn .NET/ExaminationWDA/ExaminationWDA/wwwroot/images/hinh1-638409925500082510.jpeg",
+      "PackagePath": "staticwebassets/images/hinh1-638409925500082510.jpeg"
+    },
+    {
       "Id": "/Users/mac/projects/tutorials/Learn .NET/ExaminationWDA/ExaminationWDA/wwwroot/images/hinh3-638380031453367730.jpeg",
       "PackagePath": "staticwebassets/images/hinh3-638380031453367730.jpeg"
     },
     {
       "Id": "/Users/mac/projects/tutorials/Learn .NET/ExaminationWDA/ExaminationWDA/wwwroot/images/hinh3-638380031710831310.jpeg",
       "PackagePath": "staticwebassets/images/hinh3-638380031710831310.jpeg"
+    },
+    {
+      "Id": "/Users/mac/projects/tutorials/Learn .NET/ExaminationWDA/ExaminationWDA/wwwroot/images/hinh3-638381603115186420.jpeg",
+      "PackagePath": "staticwebassets/images/hinh3-638381603115186420.jpeg"
     },
     {
       "Id": "/Users/mac/projects/tutorials/Learn .NET/ExaminationWDA/ExaminationWDA/wwwroot/js/site.js",

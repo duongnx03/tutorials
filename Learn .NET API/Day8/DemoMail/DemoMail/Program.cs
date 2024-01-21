@@ -1,4 +1,4 @@
-﻿using DemoMail.Services;
+using DemoMail.Services;
 using DemoMail.Settings;
 
 var builder = WebApplication.CreateBuilder(args);

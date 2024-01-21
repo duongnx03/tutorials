@@ -1,4 +1,4 @@
-﻿using Day1.Data;
+using Day1.Data;
 using Day1.Services;
 using Microsoft.EntityFrameworkCore;
 

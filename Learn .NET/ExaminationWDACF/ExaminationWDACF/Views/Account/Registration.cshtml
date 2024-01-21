@@ -1,0 +1,28 @@
+﻿@model ExaminationWDACF.Models.Account
+
+<h1>Registration</h1>
+
+
+<form asp-controller="Account" asp-action="Registration" method="post">
+    <div>
+        <label asp-for="AccountNo">AccountNo:</label><br />
+        <input asp-for="AccountNo" />
+    </div>
+    <div>
+        <label asp-for="AccountName">Account Name:</label><br />
+        <input asp-for="AccountName" />
+    </div>
+    <div>
+        <label asp-for="PinCode">Pin Code:</label><br />
+        <input asp-for="PinCode" />
+    </div>
+    <div>
+        <label asp-for="Balance">Balance:</label><br />
+        <input asp-for="Balance" />
+    </div>
+    <div>
+        <input asp-for="Role" type="hidden" value="false" />
+    </div>
+
+    <input type="submit" value="Register" />
+</form>

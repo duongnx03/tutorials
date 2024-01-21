@@ -1,4 +1,34 @@
 ﻿<Properties StartupConfiguration="{BB3CD43E-121D-41AB-9354-2C6748151B34}|https">
-  <MonoDevelop.Ide.ItemProperties.day2 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.day2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="day2/Program.cs">
+    <Files>
+      <File FileName="day2/Data/DatabaseContext.cs" />
+      <File FileName="day2/Repository/IStudentRepo.cs" />
+      <File FileName="day2/Service/StudentService.cs" />
+      <File FileName="day2/Controllers/StudentController.cs" />
+      <File FileName="day2/Properties/launchSettings.json" />
+      <File FileName="day2/appsettings.json" />
+      <File FileName="day2/WeatherForecast.cs" />
+      <File FileName="day2/Program.cs" Line="29" Column="1" />
+      <File FileName="day2/Models/Student.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="day2" expanded="True">
+            <Node name="day2" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

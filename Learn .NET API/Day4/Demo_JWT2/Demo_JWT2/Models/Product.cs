@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Demo_JWT2.Models
 {
 	public class Product

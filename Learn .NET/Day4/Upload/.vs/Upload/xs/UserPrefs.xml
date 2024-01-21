@@ -1,33 +1,35 @@
 ﻿<Properties StartupConfiguration="{E91C3AE9-1220-4C9B-965E-F2D2842C7EB9}|https">
+  <MonoDevelop.Ide.ItemProperties.Upload PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Upload PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Upload/Controllers/ProductController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Upload/Models/DTO/ProductDTO.cs">
     <Files>
       <File FileName="Upload/appsettings.json" Line="3" Column="78" />
-      <File FileName="Upload/Program.cs" Line="14" Column="1" />
+      <File FileName="Upload/Program.cs" />
       <File FileName="Upload/Models/Product.cs" Line="14" Column="31" />
       <File FileName="Upload/Models/ProductDbContext.cs" Line="1" Column="1" />
-      <File FileName="Upload/IRepository/IProductRepo.cs" Line="16" Column="24" />
-      <File FileName="Upload/Repository/ProductRepo.cs" Line="12" Column="42" />
+      <File FileName="Upload/IRepository/IProductRepo.cs" />
+      <File FileName="Upload/Repository/ProductRepo.cs" />
       <File FileName="Upload/Models/DTO/ProductDTO.cs" Line="12" Column="43" />
       <File FileName="Upload/Controllers/ProductController.cs" Line="70" Column="12" />
-      <File FileName="Upload/Views/Product/Index.cshtml" Line="44" Column="65" />
-      <File FileName="Upload/Views/Product/Create.cshtml" Line="26" Column="44" />
-      <File FileName="Upload/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="Upload/Views/Product/Edit.cshtml" Line="32" Column="49" />
+      <File FileName="Upload/Views/Product/Index.cshtml" Line="48" Column="19" />
+      <File FileName="Upload/Views/Product/Create.cshtml" />
+      <File FileName="Upload/Controllers/HomeController.cs" />
+      <File FileName="Upload/Views/Product/Edit.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Upload" expanded="True">
+          <Node name="Upload">
             <Node name="Upload">
-              <Node name="Controllers">
-                <Node name="ProductController.cs" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="DTO" expanded="True">
+                  <Node name="ProductDTO.cs" selected="True" />
+                </Node>
               </Node>
-              <Node name="IRepository" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -35,5 +37,4 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -1,0 +1,39 @@
+<Properties StartupConfiguration="{A6C9D4BB-4C68-4E72-9C79-A223820E99E1}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Demo__CustomStatusCode PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Demo_CustomStatusCode/Data/DatabaseContext.cs">
+    <Files>
+      <File FileName="Demo_CustomStatusCode/CustomStatus/CustomResult.cs" />
+      <File FileName="Demo_CustomStatusCode/Data/DatabaseContext.cs" Line="18" Column="48" />
+      <File FileName="Demo_CustomStatusCode/Models/Product.cs" />
+      <File FileName="Demo_CustomStatusCode/Program.cs" />
+      <File FileName="Demo_CustomStatusCode/Repository/ProductRepo.cs" />
+      <File FileName="Demo_CustomStatusCode/Controllers/ProductController.cs" />
+      <File FileName="Demo_CustomStatusCode/Services/ProductService.cs" />
+      <File FileName="Demo_CustomStatusCode/Services/ProductCustomService.cs" />
+      <File FileName="Demo_CustomStatusCode/Repository/IProductCustomRepo.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Demo_CustomStatusCode" expanded="True">
+            <Node name="Demo_CustomStatusCode" expanded="True">
+              <Node name="CustomStatus" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="DatabaseContext.cs" selected="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Repository" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

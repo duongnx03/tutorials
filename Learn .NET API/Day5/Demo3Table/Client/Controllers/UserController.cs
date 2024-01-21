@@ -1,4 +1,4 @@
-﻿using Client.Models;
+using Client.Models;
 using Client.ModelStatic;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;

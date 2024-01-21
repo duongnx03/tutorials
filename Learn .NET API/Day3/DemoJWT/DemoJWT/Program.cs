@@ -1,4 +1,4 @@
-﻿using DemoJWT.Models;
+using DemoJWT.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;

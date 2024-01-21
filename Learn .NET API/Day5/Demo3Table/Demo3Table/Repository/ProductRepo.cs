@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Demo3Table.IRepository;
 using Demo3Table.Models;
 using Microsoft.EntityFrameworkCore;

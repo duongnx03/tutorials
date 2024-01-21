@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Day2_Demo3Table.Data;
 using Day2_Demo3Table.IRepository;
 using Day2_Demo3Table.Models;

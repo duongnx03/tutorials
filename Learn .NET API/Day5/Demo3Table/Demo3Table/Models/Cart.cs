@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Demo3Table.Models
 {
 	public class Cart

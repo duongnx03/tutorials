@@ -1,4 +1,4 @@
-﻿namespace Demo_JWT2;
+namespace Demo_JWT2;
 
 public class WeatherForecast
 {

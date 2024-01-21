@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Day1.Models;
 
 namespace Day1.Services

@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="Multiple Projects">
+<Properties StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">

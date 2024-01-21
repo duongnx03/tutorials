@@ -1,4 +1,4 @@
-﻿using Day2_Demo3Table.Models;
+using Day2_Demo3Table.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Day2_Demo3Table.Data

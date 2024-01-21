@@ -1,28 +1,29 @@
 ﻿<Properties StartupConfiguration="{20D142AB-7370-4E81-9A07-8C97200FEBA9}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.DemoFilter PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DemoFilter/Controllers/HomeController.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoFilter/Filters/ExampleFilter.cs">
     <Files>
       <File FileName="DemoFilter/Filters/ExampleFilter.cs" Line="15" Column="89" />
-      <File FileName="DemoFilter/Program.cs" Line="9" Column="89" />
+      <File FileName="DemoFilter/Program.cs" />
       <File FileName="DemoFilter/Filters/AddHeaderAttribute.cs" Line="22" Column="6" />
       <File FileName="DemoFilter/Controllers/HomeController.cs" Line="11" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DemoFilter" expanded="True">
-            <Node name="DemoFilter" selected="True">
-              <Node name="Controllers" expanded="True" />
+          <Node name="DemoFilter">
+            <Node name="DemoFilter">
+              <Node name="Controllers" selected="True" />
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

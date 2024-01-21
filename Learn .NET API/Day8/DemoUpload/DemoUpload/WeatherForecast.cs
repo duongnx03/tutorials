@@ -1,4 +1,4 @@
-﻿namespace DemoUpload;
+namespace DemoUpload;
 
 public class WeatherForecast
 {

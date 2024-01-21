@@ -1,4 +1,4 @@
-﻿using System.Text.Json.Serialization;
+using System.Text.Json.Serialization;
 using Demo3Table.IRepository;
 using Demo3Table.Models;
 using Demo3Table.Repository;

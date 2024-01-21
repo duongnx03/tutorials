@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/Exercise.NET.bundle.scp.css"
     },
     {
+      "Id": "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

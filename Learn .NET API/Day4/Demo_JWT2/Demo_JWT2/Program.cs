@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 using Demo_JWT2.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;

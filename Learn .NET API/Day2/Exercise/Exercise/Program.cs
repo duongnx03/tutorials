@@ -1,4 +1,4 @@
-﻿using Exercise.Models;
+using Exercise.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

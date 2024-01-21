@@ -1,4 +1,4 @@
-﻿using Day1.Models;
+using Day1.Models;
 using Day1.Services;
 using Microsoft.AspNetCore.Mvc;
 

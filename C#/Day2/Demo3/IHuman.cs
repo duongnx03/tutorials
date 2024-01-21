@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Demo3
 {
 	internal interface IHuman

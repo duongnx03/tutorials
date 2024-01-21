@@ -1,4 +1,4 @@
-﻿namespace PretestEAT;
+namespace PretestEAT;
 
 public class WeatherForecast
 {

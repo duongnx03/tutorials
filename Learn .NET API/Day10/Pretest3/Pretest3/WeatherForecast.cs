@@ -1,4 +1,4 @@
-﻿namespace Pretest3;
+namespace Pretest3;
 
 public class WeatherForecast
 {

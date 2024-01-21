@@ -1,4 +1,4 @@
-﻿namespace Demo3Table;
+namespace Demo3Table;
 
 public class WeatherForecast
 {

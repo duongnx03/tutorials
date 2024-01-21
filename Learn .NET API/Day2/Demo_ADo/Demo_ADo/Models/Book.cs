@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Demo_ADo.Models
 {
 	public class Book

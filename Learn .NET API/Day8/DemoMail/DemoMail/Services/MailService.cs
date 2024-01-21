@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using DemoMail.Models;
 using DemoMail.Settings;
 using MailKit.Net.Smtp;

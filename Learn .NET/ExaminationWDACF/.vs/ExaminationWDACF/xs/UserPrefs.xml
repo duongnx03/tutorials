@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{223DF71F-8A48-4C08-8C52-AB1E4D307A0B}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExaminationWDACF/Views/Account/Registration.cshtml">
+    <Files>
+      <File FileName="ExaminationWDACF/Program.cs" Line="30" Column="34" />
+      <File FileName="ExaminationWDACF/Models/DatabaseContext.cs" Line="32" Column="1" />
+      <File FileName="ExaminationWDACF/Models/Account.cs" Line="18" Column="15" />
+      <File FileName="ExaminationWDACF/Controllers/AccountController.cs" Line="84" Column="30" />
+      <File FileName="ExaminationWDACF/Views/Account/Login.cshtml" Line="11" Column="7" />
+      <File FileName="ExaminationWDACF/Views/Account/AccountDetails.cshtml" Line="10" Column="25" />
+      <File FileName="ExaminationWDACF/Views/Account/AccountList.cshtml" Line="25" Column="36" />
+      <File FileName="ExaminationWDACF/Views/Account/Registration.cshtml" Line="5" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExaminationWDACF" expanded="True">
+            <Node name="ExaminationWDACF">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True">
+                  <Node name="Registration.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ExaminationWDACF PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

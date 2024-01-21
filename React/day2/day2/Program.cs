@@ -1,4 +1,6 @@
 ﻿using day2.Data;
+using day2.Repository;
+using day2.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,11 +15,13 @@ builder.Services.AddDbContext<DatabaseContext>(o => o.UseSqlServer(builder.Confi
 
 var listHttp = builder.Configuration.GetSection("AllowOrigins").Get<string[]>();
 
+builder.Services.AddScoped<IStudentRepo, StudentService>();
+
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("MyCors", policy =>
     {
-        policy.WithOrigins().AllowAnyMethod().AllowAnyHeader();
+        policy.WithOrigins(listHttp).AllowAnyMethod().AllowAnyHeader();
     });
 });
 
@@ -30,7 +34,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors();
+app.UseCors("MyCors");
 
 app.UseHttpsRedirection();
 

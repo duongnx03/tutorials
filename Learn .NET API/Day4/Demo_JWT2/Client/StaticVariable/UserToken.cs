@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Client.StaticVariable
 {
 	public static class UserToken

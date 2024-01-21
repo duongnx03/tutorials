@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gir2qDmAFDuxLlsI+SozbQVN7jI+hF8swLdWy0lJ1yo8bqZWC+Z78hHwxbo9GDLlakmeyAhqx6V1+8yD5vKZRQ==",
+  "dgSpecHash": "ne8bDAmiP+jgv85755w2Its73CdQA+QS2tHd6ev2qWndOYv1mLn4jrjGd6CHwPQpukvMvMSU4E8fpKKkK6Nmhg==",
   "success": true,
-  "projectFilePath": "/Users/mac/projects/tutorials/# .NET/Day3/DemoFilter/DemoFilter/DemoFilter.csproj",
+  "projectFilePath": "/Users/mac/projects/tutorials/Learn .NET/Day3/DemoFilter/DemoFilter/DemoFilter.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

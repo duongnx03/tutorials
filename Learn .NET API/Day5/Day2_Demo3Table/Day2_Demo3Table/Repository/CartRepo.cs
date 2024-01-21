@@ -1,4 +1,4 @@
-﻿using Day2_Demo3Table.Data;
+using Day2_Demo3Table.Data;
 using Day2_Demo3Table.IRepository;
 using Day2_Demo3Table.Models;
 using Microsoft.EntityFrameworkCore;

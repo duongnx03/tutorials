@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Client.ModelStatic
 {
 	public static class UserStatic

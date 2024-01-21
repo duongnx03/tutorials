@@ -1,28 +1,35 @@
 ﻿<Properties StartupConfiguration="{89923059-0DF4-4552-AEBA-A0961DDCC817}|https">
+  <MonoDevelop.Ide.ItemProperties.Security PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Security PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Security/Areas/admin/Views/Product/Index.cshtml">
     <Files>
-      <File FileName="Security/Middlewares/AuthenticationMiddle.cs" Line="32" Column="53" />
+      <File FileName="Security/Middlewares/AuthenticationMiddle.cs" />
       <File FileName="Security/Program.cs" Line="32" Column="32" />
-      <File FileName="Security/Controllers/LoginController.cs" Line="21" Column="30" />
-      <File FileName="Security/Views/Login/Index.cshtml" Line="12" Column="27" />
-      <File FileName="Security/Views/Login/Welcome.cshtml" Line="6" Column="35" />
-      <File FileName="Security/Areas/admin/Controllers/ProductController.cs" Line="16" Column="2" />
+      <File FileName="Security/Controllers/LoginController.cs" />
+      <File FileName="Security/Views/Login/Index.cshtml" />
+      <File FileName="Security/Views/Login/Welcome.cshtml" />
+      <File FileName="Security/Areas/admin/Controllers/ProductController.cs" />
       <File FileName="Security/Areas/admin/Views/Product/Index.cshtml" Line="9" Column="1" />
+      <File FileName="Security/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Security" expanded="True">
+          <Node name="Security">
             <Node name="Security">
               <Node name="Areas" expanded="True">
-                <Node name="admin" selected="True" />
+                <Node name="admin" expanded="True">
+                  <Node name="Views" expanded="True" selected="True">
+                    <Node name="Product" expanded="True" />
+                  </Node>
+                </Node>
               </Node>
               <Node name="Middlewares" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Login" expanded="True" />
               </Node>
@@ -33,5 +40,4 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

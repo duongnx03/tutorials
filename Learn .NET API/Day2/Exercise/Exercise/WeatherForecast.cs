@@ -1,4 +1,4 @@
-﻿namespace Exercise;
+namespace Exercise;
 
 public class WeatherForecast
 {

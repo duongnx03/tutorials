@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mB2txNdWPy1vRBZO3KV2PeNLB1VUJh1vsl7AR5VrlZ4=",
+  "Hash": "gBVSU8shYyjYWcKfyNqfa1kMQZDGw9eIywrEAnEhwy4=",
   "Source": "Upload",
   "BasePath": "_content/Upload",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/cat-638361773459380490.jpeg"
+    },
+    {
+      "Identity": "/Users/mac/projects/tutorials/Learn .NET/Day4/Upload/Upload/wwwroot/images/hinh2-638361808633583420.jpeg",
+      "SourceId": "Upload",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mac/projects/tutorials/Learn .NET/Day4/Upload/Upload/wwwroot/",
+      "BasePath": "_content/Upload",
+      "RelativePath": "images/hinh2-638361808633583420.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/hinh2-638361808633583420.jpeg"
     },
     {
       "Identity": "/Users/mac/projects/tutorials/Learn .NET/Day4/Upload/Upload/wwwroot/images/tieuviem-638361774080062020.jpeg",

@@ -1,4 +1,4 @@
-﻿namespace test2;
+namespace test2;
 
 public class Class1
 {

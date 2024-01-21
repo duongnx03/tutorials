@@ -1,4 +1,4 @@
-﻿using Demo_JWT2.Models;
+using Demo_JWT2.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

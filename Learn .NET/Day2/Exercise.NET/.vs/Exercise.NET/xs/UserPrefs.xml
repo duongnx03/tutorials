@@ -2,12 +2,15 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Exercise.NET/Repository/CustomerRepo.cs">
+  <MonoDevelop.Ide.ItemProperties.Exercise.NET PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercise.NET/Data/CustomerContext.cs">
     <Files>
-      <File FileName="Exercise.NET/Data/CustomerContext.cs" />
+      <File FileName="Exercise.NET/Data/CustomerContext.cs" Line="15" Column="1" />
       <File FileName="Exercise.NET/Models/Customer.cs" />
       <File FileName="Exercise.NET/appsettings.json" />
-      <File FileName="Exercise.NET/Program.cs" />
+      <File FileName="Exercise.NET/Program.cs" Line="34" Column="35" />
       <File FileName="Exercise.NET/IRepository/ICustomerRepo.cs" />
       <File FileName="Exercise.NET/Repository/CustomerRepo.cs" Line="77" Column="31" />
       <File FileName="Exercise.NET/Controllers/CustomerController.cs" />
@@ -21,11 +24,11 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Exercise.NET" expanded="True">
+          <Node name="Exercise.NET">
             <Node name="Exercise.NET" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
-              <Node name="Repository" expanded="True" />
-              <Node name="Views" expanded="True" />
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -33,7 +36,4 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Exercise.NET PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

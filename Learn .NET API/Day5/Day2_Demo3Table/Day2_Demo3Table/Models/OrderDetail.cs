@@ -1,4 +1,4 @@
-﻿namespace Day2_Demo3Table.Models
+namespace Day2_Demo3Table.Models
 {
     public class OrderDetail
     {

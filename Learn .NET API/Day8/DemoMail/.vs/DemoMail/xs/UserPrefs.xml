@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{F56818BF-A0BC-4780-9501-C8A1444F1F05}|https">
+<Properties StartupConfiguration="{F56818BF-A0BC-4780-9501-C8A1444F1F05}|https">
   <MonoDevelop.Ide.ItemProperties.DemoMail PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

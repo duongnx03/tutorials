@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "571rJNqFtKgjAEFaCcz4BSJItbXfkCe6TViYDQGxoiw=",
+  "Hash": "eA3PMfrOTUJkg7oPCTYENALfisSdyBpo/wDRrIjKUu8=",
   "Source": "Exercise.NET",
   "BasePath": "_content/Exercise.NET",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/obj/Debug/net6.0/scopedcss/projectbundle/Exercise.NET.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/wwwroot/.DS_Store",
+      "SourceId": "Exercise.NET",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/wwwroot/",
+      "BasePath": "_content/Exercise.NET",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/mac/projects/tutorials/Learn .NET/Day2/Exercise.NET/Exercise.NET/wwwroot/css/site.css",

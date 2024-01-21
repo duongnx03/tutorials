@@ -1,4 +1,4 @@
-﻿using Day8_DemoMail.Models;
+using Day8_DemoMail.Models;
 using Day8_DemoMail.Settings;
 using MailKit.Net.Smtp;
 using MailKit.Security;

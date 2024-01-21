@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Hosting;
+using System.IO;
 using ExaminationWDA.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -20,11 +18,17 @@ namespace ExaminationWDA.Controllers
             this.db = db;
             this.env = env;
         }
-        public async Task< IActionResult> Index()
+        public async Task<IActionResult> Index(string skill)
         {
-            var list = await db.TbEmployees.ToListAsync();
+            
+            var list = string.IsNullOrEmpty(skill)
+                ? await db.TbEmployees.ToListAsync()
+                : await db.TbEmployees.Where(c => c.Skills.Contains(skill)).ToListAsync();
+
+            
             return View(list);
         }
+
 
         public IActionResult Create()
         {
@@ -36,18 +40,20 @@ namespace ExaminationWDA.Controllers
         {
             if (ModelState.IsValid)
             {
-                
-                var filename = GetUniqueFilename(employee.UploadImage.FileName);
-                var upload = Path.Combine(env.WebRootPath, "images");
-                var filepath = Path.Combine(upload, filename);
-                var stream = new FileStream(filepath, FileMode.Create);
-                await employee.UploadImage.CopyToAsync(stream);
+                if (employee.UploadImage != null)
+                {
 
-                employee.Photo = filename;
-                db.TbEmployees.Add(employee);
-                await db.SaveChangesAsync();
-                return RedirectToAction("Index");
+                    var filename = GetUniqueFilename(employee.UploadImage.FileName);
+                    var upload = Path.Combine(env.WebRootPath, "images");
+                    var filepath = Path.Combine(upload, filename);
+                    var stream = new FileStream(filepath, FileMode.Create);
+                    await employee.UploadImage.CopyToAsync(stream);
 
+                    employee.Photo = filename;
+                    db.TbEmployees.Add(employee);
+                    await db.SaveChangesAsync();
+                    return RedirectToAction("Index");
+                }       
             }
             return View();
         }
@@ -81,14 +87,6 @@ namespace ExaminationWDA.Controllers
             }
             return View(employee);
         }
-
-        public async Task<IActionResult> SearchBySkills(string skill)
-        {
-            var searchList = await db.TbEmployees.Where(c => c.Skills.Contains(skill)).ToListAsync();
-            return View(searchList);
-        }
-
-        
     }
 }
 

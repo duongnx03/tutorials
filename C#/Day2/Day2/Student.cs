@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Day2
 {
 	public class Student

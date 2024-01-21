@@ -1,4 +1,4 @@
-﻿namespace DemoJWT;
+namespace DemoJWT;
 
 public class WeatherForecast
 {

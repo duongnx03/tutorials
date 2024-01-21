@@ -1,0 +1,29 @@
+﻿
+@model List<ExaminationWDACF.Models.Account>
+
+<h1>Account List</h1>
+<a asp-action="Registration">Registration</a>
+<a asp-action="Index">Logout</a>
+
+
+<table border="1">
+    <thead>
+        
+            <th>AccountNo</th>
+            <th>AccountName</th>
+            <th>Balance</th>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(mi => item.AccountNo)</td>
+                <td>@Html.DisplayFor(mi => item.AccountName)</td>
+                <td>@Html.DisplayFor(mi => item.Balance)</td>
+                <td>@item.Role</td>
+            </tr>
+        }
+    </tbody>
+</table>

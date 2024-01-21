@@ -1,4 +1,4 @@
-﻿namespace Demo_ADo;
+namespace Demo_ADo;
 
 public class WeatherForecast
 {

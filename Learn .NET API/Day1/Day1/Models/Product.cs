@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace Day1.Models
 {
 	public class Product

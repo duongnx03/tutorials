@@ -1,4 +1,4 @@
-﻿namespace DemoMail;
+namespace DemoMail;
 
 public class WeatherForecast
 {

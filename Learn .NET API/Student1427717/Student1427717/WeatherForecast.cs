@@ -1,4 +1,4 @@
-﻿namespace Student1427717;
+namespace Student1427717;
 
 public class WeatherForecast
 {

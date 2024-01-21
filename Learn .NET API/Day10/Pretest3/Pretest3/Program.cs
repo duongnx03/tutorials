@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Pretest3.Models;
 
 var builder = WebApplication.CreateBuilder(args);

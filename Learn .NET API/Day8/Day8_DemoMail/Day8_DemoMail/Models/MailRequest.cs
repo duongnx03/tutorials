@@ -1,4 +1,4 @@
-﻿namespace Day8_DemoMail.Models
+namespace Day8_DemoMail.Models
 {
     public class MailRequest
     {

@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Student1427717.Models;
 
 var builder = WebApplication.CreateBuilder(args);

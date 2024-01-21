@@ -1,4 +1,4 @@
-﻿namespace DemoQRCode.Models;
+namespace DemoQRCode.Models;
 
 public class ErrorViewModel
 {

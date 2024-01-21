@@ -1,4 +1,4 @@
-﻿namespace Day8_DemoMail.Settings
+namespace Day8_DemoMail.Settings
 {
     public class MailSettings
     {

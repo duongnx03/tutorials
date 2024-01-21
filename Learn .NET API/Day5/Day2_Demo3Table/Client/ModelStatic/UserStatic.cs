@@ -1,4 +1,4 @@
-﻿namespace Client.ModelStatic
+namespace Client.ModelStatic
 {
     public static class UserStatic
     {
